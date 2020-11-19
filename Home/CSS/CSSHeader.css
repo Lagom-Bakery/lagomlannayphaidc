@@ -1,0 +1,103 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+.logo {
+    float: left;
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 8px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+header {
+    background-image: url(../backgroundimg/BG-beautiful_rustic_plating_dessert.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(../backgroundimg/BG-beautiful_rustic_plating_dessert.jpg);
+    }
+
+    20% {
+        background-image: url(../backgroundimg/BG-cheesecake.jpg);
+    }
+
+    40% {
+        background-image: url('../backgroundimg/Asset 1.png');
+    }
+
+    60% {
+        background-image: url('../backgroundimg/Asset 2.png')
+    }
+
+    80% {
+        background-image: url(../backgroundimg/BG-cheesecake.jpg);
+    }
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+    ul li {
+        display: inline-block;
+        list-style: none;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 0 20px;
+        }
+
+            ul li a:hover {
+                text-decoration: underline;
+            }
+
+.icon image {
+    height: 4vh;
+    width: 4vh;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.navbar li a:hover {
+    background: #dbcbbd;
+    color: #290001;
+}
+
+.navbar li ul {
+    position: absolute;
+    display: none;
+    width: 10em;
+}
+
+.navb li:hover ul {
+    display: block;
+}
+
+
+main fieldset {
+    width: 800px;
+    height: auto;
+    align-items: center;
+}

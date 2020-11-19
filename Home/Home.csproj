@@ -67,7 +67,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="backgroundimg\Asset 1.png" />
+    <Content Include="backgroundimg\Asset 2.png" />
+    <Content Include="backgroundimg\BG-beautiful_rustic_plating_dessert.jpg" />
+    <Content Include="backgroundimg\BG-cheesecake.jpg" />
+    <Content Include="backgroundimg\icons\search.png" />
+    <Content Include="backgroundimg\icons\shopping-cart.png" />
+    <Content Include="backgroundimg\icons\user.png" />
     <Content Include="CSS\CSSFooter.css" />
+    <Content Include="CSS\CSSHeader.css" />
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
     <Content Include="Home.html" />
