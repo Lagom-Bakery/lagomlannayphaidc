@@ -12,7 +12,12 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script type="text/javascript">
         function register() {
+            if (document.getElementById("email").value == null) {                
+                    alert("Please enter your email!")
+                }
             alert("Thank you for registering to receive our news!")
+             
+            
         }
     </script>
     <link rel="stylesheet" type="text/css" href="CSS/CSSHeader.css" />
@@ -318,6 +323,7 @@
                                    style="height:50px;font-size:17px;border-top: none ;
                                             border-bottom:none;
                                             border-right:none;
+                                            cursor: pointer;
                                             border-left:none; background-color:#b4c7e7; border-radius:5px"
                                    onclick="register()" />
                         </td>
