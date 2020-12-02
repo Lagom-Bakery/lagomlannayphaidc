@@ -6,16 +6,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 /*best seller*/
+
 .column {
-    float: left;
-    width: 33.33%;
+    text-align: center;
+    position: relative;
+    padding: 0 1rem;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
 }
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px
+}
+
+
+.thumb {
+    width: 280px;
+    height: 280px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.iconheart {
+    font-size: 25px;
+    color: black;
+}
+
+.iconcart {
+    font-size: 25px;
+    color: black;
+}
+
 
 .centerimg {
     margin: auto;
@@ -26,8 +56,23 @@
 .center {
     margin: auto;
     width: 60%;
+    border-top: 2px solid #0f4c81;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+.centerpromo {
+    margin: auto;
+    width: 60%;
     border: 2px solid #0f4c81;
     padding: 10px;
+}
+
+.titlecake {
+    margin-top: 10px;
+    width: 280px
 }
 
 img {
