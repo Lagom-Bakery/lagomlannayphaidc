@@ -2,15 +2,25 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Term Of Use | Lagom Bakery</title>
+    <title>Login - Signup | Lagom Bakery</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet"
-          type="text/css"
-          href="CSS/CSSFooter.css" />
-    <link href="CSS/CSSForTerm.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/CSSLogin.css" type="text/css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        function loadFormLogin() {
+            document.getElementById("formcontent").innerHTML = '<object class="object" type="text/html" data="LoginForm.html"></object>'
+            document.getElementById("loginload").style.color = "#5b8cb6";
+            document.getElementById("signupload").style.color = "black";
+        }
+        function loadFormSignup() {
+            document.getElementById("formcontent").innerHTML = '<object class="object" type="text/html" data="SignupForm.html"></object>'
+            document.getElementById("loginload").style.color = "black";
+            document.getElementById("signupload").style.color = "#5b8cb6";
+        }
+    </script>
 
 </head>
-<body>
+<body onload="loadFormLogin()">
     <div>
         <div style="width:100%;background-color:#0f4c81; height:155px" align="center">
             <div style="height:154px; width:1300px">
@@ -50,49 +60,23 @@
             </div>
 
         </div>
-        <div style="width:1000px; margin-top:40px;" class="center">
-            <h2 align="center">TERM OF USE</h2>
-            <p>
-                <font color="grey">
-                    <i>Last update on 25/11/2020</i>
-                </font>
-            </p>
-            <p>
-                <h3>Our Guarantee</h3>
-                Out of the <b>Lagom Bakery</b> will provide a professionally decorated dessert in a timely manner as specified in the invoice or contract.  We appreciate your business and we are honored that you have chosen us for your special celebration. We guarantee that the flavors, size, and general design elements will be met as outlined. If you are not satisfied with our product(s) please let us know at the time you receive your order. Once your order is accepted, refunds will not be considered.
-            </p>
+        <div class="login">
 
-            <p>
-                <h3>
-                    Allergy Disclaimer
-                </h3>
-                Please be aware that all ingredients are processed on the same equipment (eggs, soy, wheat, coconut).  Although we have strict processes in place to prevent cross-contact there is still a slight risk of the presence of any allergen.
-            </p>
+            <div class="leftbackground" style="background-image: url(imageforlogin/bglogin.jpg)">
 
-            <p>
-                <h3>
-                    Design Variations
-                </h3>
-                Although we make every attempt to provide an exact design and to match colors, custom cakes are a work of art. It may not be possible to match an exact shade of a color, but we will come as close as possible. The final product may be subject to slight variations.  Also be aware the exposure to light can cause colors to change. We do not offer discounts or refunds if the exact shade of a color is not achieved or if a variation occurs due to lighting.  In the event that a major variation needs to be made Out of the Bubble Bakery will communicate this to the customer and seek re-design approval.
-            </p>
-            <p>
-                <h3>
-                    Care and Handling
-                </h3>
-                We are not responsible for any damage to the cake after pick-up or after setup is complete.  The client is responsible for providing an appropriate and secure table and environment for the cake(s).  Cakes are heavy and require a sturdy table, and optimal room temperature of 75 degrees or below.
-            </p>
-            <p>
-                <h3>Deposits, Payments, Cancellations</h3>
-                A deposit of 50% and a signed contract is required to consider this an order and contract for services to be rendered.  The remaining balance is due ten (10) business days prior to the delivery date. Any changes to this order must be made no later than ten (10) business days prior to delivery. Any changes requested after the signing of this contract cannot be guaranteed and may be subject to additional charges.
-                <br /><br />
-                All deposits are non-refundable. There will be no credit given for orders cancelled inside of ten (10) business days. For cancellations with more than ten (10) business days’ notice, credit may be given for a future order, less the fair market value of items that cannot be re-used.  This offer is subject to the date being available.
-                <br /><br />
-                If full payment is not received the due date, the order may be cancelled.
+            </div>
+            <div class="rightlogin">
+                <h1 align="center">
+                    <a onclick="loadFormLogin()" id="loginload" color="#5b8cb6" style="cursor:pointer">Log in &nbsp; &nbsp; &nbsp; &nbsp;</a> <a id="signupload" style="cursor:pointer" onclick="loadFormSignup()">Sign up</a>
+                </h1>
+                <div id="formcontent" name="formcontent">
 
-            </p>
+                </div>
+
+            </div>
         </div>
         <footer>
-            <div class="main_content" style="width:1300px">
+            <div class="main_content" style="width:1300px;">
                 <div class="left">
                     <h2>
                         LAGOM<br /> BAKERY

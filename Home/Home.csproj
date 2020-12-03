@@ -77,6 +77,7 @@
     <Content Include="CSS\CSSFooter.css" />
     <Content Include="CSS\CSSForTerm.css" />
     <Content Include="CSS\CSSHeader.css" />
+    <Content Include="CSS\CSSLogin.css" />
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
     <None Include="demo.json" />
@@ -93,6 +94,7 @@
     <Content Include="imageforhome\find.png" />
     <Content Include="imageforhome\iconfinder_like_outline_309057.png" />
     <Content Include="imageforhome\pancake.PNG" />
+    <Content Include="imageforlogin\bglogin.jpg" />
     <Content Include="imageforstory\ms1.png" />
     <Content Include="imageforstory\ms2.png" />
     <Content Include="imageforstory\ms3.png" />
@@ -101,7 +103,10 @@
     <Content Include="imageforstory\ms6.png" />
     <Content Include="imageforstory\ms7.png" />
     <Content Include="Load_data_Home.js" />
+    <Content Include="LoginForm.html" />
+    <Content Include="LoginSignup.html" />
     <Content Include="OurStory.html" />
+    <Content Include="SignupForm.html" />
     <Content Include="Termofuse.html" />
     <Content Include="Web.config" />
   </ItemGroup>

@@ -40,6 +40,10 @@ header {
         text-decoration: underline;
     }
 
+    header li a:active {
+        text-decoration: underline;
+    }
+
     header li ul {
         position: absolute;
         display: none;
@@ -61,6 +65,11 @@ header {
         font-size: 30px;
     }
 
+        header .icon a {
+            color: white;
+            text-decoration: none;
+        }
+
     header li:hover ul {
         display: block;
     }
@@ -79,10 +88,6 @@ header {
             text-align: left;
             text-decoration: none;
         }
-    header .icon a {
-        color: white;
-        text-decoration: none;
-    }
 
 .center {
     margin: auto;
@@ -90,6 +95,103 @@ header {
     text-align: justify
 }
 
-h3 {
-    margin-bottom: 5px;
+.login {
+    width: 100%;
+    height: 600px;
 }
+
+.rightlogin {
+    float: right;
+    width: 45%;
+}
+
+object {
+    width: 100%;
+    height: 500px;
+}
+
+.loginbackground {
+    max-width: 1px;
+}
+
+.clickloadform {
+    cursor: pointer
+}
+
+    .clickloadform:hover {
+        color: dodgerblue;
+    }
+
+.leftbackground {
+    width: 715px;
+    height: 600px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: right right;
+    background-size: cover;
+    float: left;
+}
+/*footer*/
+
+
+/*footer*/
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: #0f4c81;
+    color: white;
+    text-decoration: none;
+}
+
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+.main_content {
+    display: flex;
+    margin: 0 auto;
+}
+
+    .main_content .left {
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+
+    .main_content .nextleft {
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+
+    .main_content .right {
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+
+    .main_content .nextright {
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
+
+.left h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.main_content .content {
+    margin: 10px 0 0 0;
+}
+
+.main_content .social a {
+    font-size: 30px;
+    padding: 2px 2px
+}
+
+    .main_content .social a span {
+        margin-top: 30px;
+        width: 40px;
+        height: 40px;
+    }
