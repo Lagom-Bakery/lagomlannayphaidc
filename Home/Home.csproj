@@ -75,6 +75,7 @@
     <Content Include="backgroundimg\icons\shopping-cart.png" />
     <Content Include="backgroundimg\icons\user.png" />
     <Content Include="CSS\CSSFooter.css" />
+    <Content Include="CSS\CSSForTerm.css" />
     <Content Include="CSS\CSSHeader.css" />
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
@@ -101,6 +102,7 @@
     <Content Include="imageforstory\ms7.png" />
     <Content Include="Load_data_Home.js" />
     <Content Include="OurStory.html" />
+    <Content Include="Termofuse.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

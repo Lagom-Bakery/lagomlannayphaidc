@@ -1,0 +1,91 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+header {
+    background-color: #0f4c81;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    font-family: lora;
+}
+
+    header .navbar {
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    /*Loại bỏ dấu chấm mặc định trước thẻ <li>*/
+    header ul {
+        list-style: none;
+        text-align: center;
+    }
+
+        header ul li {
+            position: relative;
+            display: inline-block;
+            padding: 10px 30px;
+        }
+
+            header ul li a {
+                display: block;
+                text-decoration: none;
+                padding: .3em 6px;
+                color: white;
+            }
+
+    header li a:hover {
+        text-decoration: underline;
+    }
+
+    header li ul {
+        position: absolute;
+        display: none;
+    }
+
+    header .logo {
+        float: left;
+        font-size: 34px;
+        text-align: center;
+        letter-spacing: 8px;
+        cursor: pointer;
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    header .icon {
+        float: right;
+        flex: 1;
+        font-size: 30px;
+    }
+
+    header li:hover ul {
+        display: block;
+    }
+
+    header ul li ul li {
+        width: 100%;
+        background-color: #0f4c81;
+        color: white;
+        text-align: left;
+    }
+
+        header ul li ul li:hover {
+            width: 100%;
+            background-color: #87a6c0;
+            color: white;
+            text-align: left;
+            text-decoration: none;
+        }
+
+.center {
+    margin: auto;
+    width: 60%;
+    text-align: justify
+}
+
+h3 {
+    margin-bottom: 5px;
+}
