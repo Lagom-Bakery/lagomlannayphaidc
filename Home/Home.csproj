@@ -78,6 +78,7 @@
     <Content Include="CSS\CSSHeader.css" />
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
+    <None Include="demo.json" />
     <Content Include="Home.html" />
     <Content Include="imageforhome\1.JPG" />
     <Content Include="imageforhome\2.JPG" />
@@ -98,6 +99,7 @@
     <Content Include="imageforstory\ms5.png" />
     <Content Include="imageforstory\ms6.png" />
     <Content Include="imageforstory\ms7.png" />
+    <Content Include="Load_data_Home.js" />
     <Content Include="OurStory.html" />
     <Content Include="Web.config" />
   </ItemGroup>
