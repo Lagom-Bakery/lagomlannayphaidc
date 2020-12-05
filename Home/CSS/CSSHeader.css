@@ -1,107 +1,151 @@
-﻿* {
-    margin: 0;
-    padding: 0;
-    font-family: Lora;
-}
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
 
-.logo {
-    float: left;
-    font-size: 34px;
-    text-align: center;
-    letter-spacing: 8px;
-    padding-left: 30px;
-    cursor: pointer;
-}
-
-header {
-    background-image: url(../backgroundimg/BG-beautiful_rustic_plating_dessert.jpg);
+.first-page {
     height: 100vh;
+    background-image: url(../backgroundimg/BG-beautiful_rustic_plating_dessert.jpg);
     background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    position: relative;
-    color: white;
-    font-size: 20px;
     animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+
 
 @keyframes slide {
     0% {
-        background-image: url(../backgroundimg/BG-beautiful_rustic_plating_dessert.jpg);
+        background-image: url(../backgroundimg/BG-cheesecake.jpg);
     }
 
     20% {
-        background-image: url(../backgroundimg/BG-cheesecake.jpg);
+        background-image: url(../backgroundimg/BG-cake.png);
     }
 
     40% {
-        background-image: url('../backgroundimg/Asset 1.png');
+        background-image: url(../backgroundimg/BG-cookies-1.png);
     }
 
     60% {
-        background-image: url('../backgroundimg/Asset 2.png')
+        background-image: url(../backgroundimg/BG-crepe.png)
     }
 
     80% {
-        background-image: url(../backgroundimg/BG-cheesecake.jpg);
+        background-image: url(../backgroundimg/BG-cookies.png);
     }
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-}
-header .icon a {
+header {
+    max-height: 100px;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
     color: white;
-    text-decoration: none;
+    display: flex;
 }
 
-ul {
-    flex: 1;
-    text-align: center;
-    padding-top: 20px;
-}
-
-    ul li {
-        display: inline-block;
-        list-style: none;
+    /*Class logo*/
+    header .logo {
+        max-width: 300px;
+        float: left;
+        cursor: pointer;
+        flex:1;
+        border: 1px solid #000000;
+    }
+    /*Class Navbar*/
+    header .navbar {
+        align-items: center;
+        flex: 1;
+        padding-top: 20px;
     }
 
-        ul li a {
-            text-decoration: none;
-            color: white;
-            padding: 0 20px;
+        header .navbar ul {
+            text-align: center;
         }
 
-            ul li a:hover {
-                text-decoration: underline;
+            header .navbar ul li {
+                display: inline-block;
+                list-style: none;
             }
 
-.icon image {
-    height: 4vh;
-    width: 4vh;
-    margin-right: 16px;
-    cursor: pointer;
-}
+                header .navbar ul li a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px 20px;
+                }
 
-.navbar li a:hover {
-    background: #dbcbbd;
-    color: #290001;
-}
+                    header .navbar ul li a:hover {
+                        background: #9fb7cd;
+                        color: #0b3961;
+                        text-decoration: underline;
+                    }
 
-.navbar li ul {
-    position: absolute;
-    display: none;
-    width: 10em;
-}
+                header .navbar ul li ul {
+                    position: absolute;
+                    display: none;
+                    margin-top: 10px;
+                    padding-left: 0px;
+                    width: 10em;
+                }
 
-.navb li:hover ul {
-    display: block;
-}
+                header .navbar ul li:hover ul {
+                    display: block;
+                }
 
+                header .navbar ul li ul li {
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #0f4c81;
+                    color: white;
+                    text-align: left;
+                }
 
-main fieldset {
-    width: 800px;
-    height: auto;
-    align-items: center;
-}
+                    header .navbar ul li ul li:hover {
+                        background: #9fb7cd;
+                        color: #0b3961;
+                    }
+
+                        header .navbar ul li ul li:hover a {
+                            text-decoration: none;
+                        }
+    /*Class Icon*/
+    header .icon {
+        min-width: 300px;
+        display: flex;
+        padding-top:10px;
+    }
+
+        header .icon svg {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /*Icon User*/
+        header .icon .user {
+            width: 60%;
+        }
+
+            header .icon .user ul {
+                padding-left: 10px;
+            }
+
+            header .icon .user li {
+                display: none;
+                position: relative;
+                margin: 10px 0;
+                flex: 1;
+            }
+
+                header .icon .user li a {
+                    text-decoration: none;
+                    color: white;
+                    border: 1px solid #0f4c81;
+                    padding: 5px;
+                }
+
+            header .icon .user:hover ul li {
+                display: inline-block;
+            }
+
+            header .icon .user li:hover a {
+                background: #9fb7cd;
+                color: #0b3961;
+            }

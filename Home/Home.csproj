@@ -67,10 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="backgroundimg\Asset 1.png" />
-    <Content Include="backgroundimg\Asset 2.png" />
     <Content Include="backgroundimg\BG-beautiful_rustic_plating_dessert.jpg" />
+    <Content Include="backgroundimg\BG-cake.png" />
     <Content Include="backgroundimg\BG-cheesecake.jpg" />
+    <Content Include="backgroundimg\BG-christmas-cookies.png" />
+    <Content Include="backgroundimg\BG-cookies-1.png" />
+    <Content Include="backgroundimg\BG-cookies.png" />
+    <Content Include="backgroundimg\BG-crepe.png" />
     <Content Include="backgroundimg\icons\search.png" />
     <Content Include="backgroundimg\icons\shopping-cart.png" />
     <Content Include="backgroundimg\icons\user.png" />
