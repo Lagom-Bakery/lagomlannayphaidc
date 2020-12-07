@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Addtocart.html" />
     <Content Include="backgroundimg\BG-beautiful_rustic_plating_dessert.jpg" />
     <Content Include="backgroundimg\BG-cake.png" />
     <Content Include="backgroundimg\BG-cheesecake.jpg" />
@@ -77,10 +78,29 @@
     <Content Include="backgroundimg\icons\search.png" />
     <Content Include="backgroundimg\icons\shopping-cart.png" />
     <Content Include="backgroundimg\icons\user.png" />
+    <Content Include="category\BakedCake.html" />
+    <Content Include="category\Cheesecake.html" />
+    <Content Include="category\ChiffonAndBundtCake.html" />
+    <Content Include="category\Cookies.html" />
+    <Content Include="category\CreamPuffs.html" />
+    <Content Include="category\CroissantsAndBread.html" />
+    <Content Include="category\CupcakesAndTorte.html" />
+    <Content Include="category\Donuts.html" />
+    <Content Include="category\Macarons.html" />
+    <Content Include="category\Madeleines.html" />
+    <Content Include="category\MeringueAndSemifreddo.html" />
+    <Content Include="category\Mousse.html" />
+    <Content Include="category\MuffinsAndCremeBrulee.html" />
+    <Content Include="category\Pavlova.html" />
+    <Content Include="category\RedVelvet.html" />
+    <Content Include="category\TartAndPie.html" />
+    <Content Include="category\Tiramisu.html" />
+    <Content Include="category\WafflesPancakesAndCrepes.html" />
     <Content Include="CSS\CSSFooter.css" />
     <Content Include="CSS\CSSForTerm.css" />
     <Content Include="CSS\CSSHeader.css" />
     <Content Include="CSS\CSSLogin.css" />
+    <Content Include="CSS\CSSMenu.css" />
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
     <None Include="data\home.json" />
@@ -108,6 +128,7 @@
     <Content Include="Js\Load_data_Home.js" />
     <Content Include="LoginForm.html" />
     <Content Include="LoginSignup.html" />
+    <Content Include="Menu.html" />
     <Content Include="OurStory.html" />
     <Content Include="SignupForm.html" />
     <Content Include="Termofuse.html" />

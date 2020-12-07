@@ -10,18 +10,18 @@
           type="text/css"
           href="CSS/CSSFooter.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://use.fontawesome.com/0af3ce7956.js"></script>
+    <script src="https://code.jquery.com/jquery-1.7.2.js">
+
+    </script>
     <script type="text/javascript">
-        function register() {
-          
-            alert("Thank you for registering to receive our news!")
-             
-            
-        }
+
     </script>
     <link rel="stylesheet" type="text/css" href="CSS/CSSHeader.css" />
 </head>
 <body>
-  
+
     <div>
 
         <!--Phuong-->
@@ -100,7 +100,7 @@
         <fieldset style="width:1000px; margin-top:20px;" class="center">
             <legend style="font-size:25px">BEST SELLER</legend>
             <div style="margin-top:20px" class="row" align="center">
-                <!--
+
                 <div class="column">
                     <div class="thumb" style="background-image: url(https://static.mojewypieki.com/wp-content/uploads/2020/03/Mro%C5%BCony_tort_bezowy_tiramisu_2.jpg)"></div>
                     <div class="titlecake">
@@ -111,8 +111,10 @@
 
                                 </td>
                                 <td style="text-align:right;width:60px;vertical-align:top">
-                                    <a class="iconheart" href="#"><i class="far fa-heart" id="heart"></i></a>
-                                    <a class="iconcart" href="#"><i class="fas fa-cart-plus"></i></a>
+                                    <a style="font-size:25px; cursor:pointer">
+                                        <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
+                                    </a>
+                                    <a href="Addtocart.html" target="_self"><img style="margin-bottom:12px" src="https://img.icons8.com/ios/25/000000/shopping-bag.png" /></a>
 
                                 </td>
                             </tr>
@@ -127,33 +129,33 @@
                     </div>
                 </div>
 
-    <div class="column">
-        <div class="thumb" style="background-image: url(https://www.thebutterhalf.com/wp-content/uploads/2017/02/healthychocolatebananaflaxmuffins3.png)"></div>
-        <div class="titlecake">
-            <div style="float:right">
-                <a class="iconheart" href="#"><i class="far fa-heart" id="heart"></i></a>
-                <a class="iconcart" href="#"><i class="fas fa-cart-plus"></i></a>
-            </div>
-            <div style="float:left">
-                <font style="float:left">Lemon Poppy Seed Cake</font><br />
-                <font style="float:left">$ 20.00</font>
-            </div>
-        </div>
-    </div>
-    <div class="column">
-        <div class="thumb" style="background-image: url(https://livforcake.com/wp-content/uploads/2017/06/tiramisu-cake-7.jpg)"></div>
-        <div class="titlecake">
-            <div style="float:right">
-                <a class="iconheart" href="#"><i class="far fa-heart" id="heart"></i></a>
-                <a class="iconcart" href="#"><i class="fas fa-cart-plus"></i></a>
-            </div>
-            <div style="float:left">
-                <font style="float:left">Lemon Poppy Seed Cake</font><br />
-                <font style="float:left">$ 20.00</font>
-            </div>
-        </div>
-    </div>
-    -->
+                <div class="column">
+                    <div class="thumb" style="background-image: url(https://www.thebutterhalf.com/wp-content/uploads/2017/02/healthychocolatebananaflaxmuffins3.png)"></div>
+                    <div class="titlecake">
+                        <div style="float:right">
+                            <a class="iconheart" href="#"><i class="far fa-heart" id="heart"></i></a>
+                            <a class="iconcart" href="#"><i class="fas fa-cart-plus"></i></a>
+                        </div>
+                        <div style="float:left">
+                            <font style="float:left">Lemon Poppy Seed Cake</font><br />
+                            <font style="float:left">$ 20.00</font>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="thumb" style="background-image: url(https://livforcake.com/wp-content/uploads/2017/06/tiramisu-cake-7.jpg)"></div>
+                    <div class="titlecake">
+                        <div style="float:right">
+                            <a class="iconheart" href="#"><i class="far fa-heart" id="heart"></i></a>
+                            <a class="iconcart" href="#"><i class="fas fa-cart-plus"></i></a>
+                        </div>
+                        <div style="float:left">
+                            <font style="float:left">Lemon Poppy Seed Cake</font><br />
+                            <font style="float:left">$ 20.00</font>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -319,7 +321,7 @@
 
                 Please enter your email here:
                 <br />
-                <form>
+                <form onsubmit="alert('Thank you for registering to receive our news!');">
                     <table cellspacing="0">
                         <tr>
                             <td>
@@ -329,8 +331,7 @@
                                             border-bottom:none;
                                             border-right:none;
                                             cursor: pointer;
-                                            border-left:none; background-color:#b4c7e7; border-radius:5px"
-                                       onclick="register()" />
+                                            border-left:none; background-color:#b4c7e7; border-radius:5px" />
                             </td>
 
                         </tr>
@@ -402,7 +403,11 @@
         </footer>
 
     </div>
+    <script>
+        $(".heart.fa").click(function () {
+            $(this).toggleClass("fa-heart fa-heart-o");
+        });
+    </script>
 
-    <script src="Js/Load_data_Home.js"></script>
 </body>
 </html>
