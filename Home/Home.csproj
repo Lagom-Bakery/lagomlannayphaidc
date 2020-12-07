@@ -83,7 +83,7 @@
     <Content Include="CSS\CSSLogin.css" />
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
-    <None Include="demo.json" />
+    <None Include="data\home.json" />
     <Content Include="Home.html" />
     <Content Include="imageforhome\1.JPG" />
     <Content Include="imageforhome\2.JPG" />
