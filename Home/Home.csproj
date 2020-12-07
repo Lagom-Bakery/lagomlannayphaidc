@@ -105,7 +105,7 @@
     <Content Include="imageforstory\ms5.png" />
     <Content Include="imageforstory\ms6.png" />
     <Content Include="imageforstory\ms7.png" />
-    <Content Include="Load_data_Home.js" />
+    <Content Include="Js\Load_data_Home.js" />
     <Content Include="LoginForm.html" />
     <Content Include="LoginSignup.html" />
     <Content Include="OurStory.html" />
