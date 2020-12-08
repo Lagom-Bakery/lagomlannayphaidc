@@ -129,9 +129,14 @@
     <Content Include="LoginForm.html" />
     <Content Include="LoginSignup.html" />
     <Content Include="Menu.html" />
+    <Content Include="Menu\filter.html" />
+    <Content Include="Menu\footer.html" />
+    <Content Include="Menu\Header.html" />
+    <Content Include="Menu\Menu.html" />
     <Content Include="OurStory.html" />
     <Content Include="SignupForm.html" />
     <Content Include="Termofuse.html" />
+    <Content Include="TrangMenu_iframe.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
