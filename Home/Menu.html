@@ -6,26 +6,70 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <script src="https://use.fontawesome.com/0af3ce7956.js"></script>
     <script src="https://code.jquery.com/jquery-1.7.2.js">
-
     </script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link href="../CSS/CSSMenu.css" rel="stylesheet" />
     <link href="../CSS/CSSFooter.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+        function loadMousse(page) {
+            // document.getElementById("content").innerHTML='<object         type="text/html" data="' + page + '" style="width:600px;" ></object>';
+            $('#content').load(page);
 
-
-
-    </script>
-    <!--<script>
-        function wishlist() {
-            document.getElementByClassName("far fa-heart").className = "fas fa-heart"
-            document.getElementByClassName("far fa-heart").style.color = "red"
         }
-        $('button.iconheart').click(function () {
-            wishlist();
-        });
-    </script>-->
+        function loadCheesecake(page) {
+            $('#content').load(page);
+        }
+        function loadRedVelvet(page) {
+            $('#content').load(page);
+        }
+        function loadBakedCake(page) {
+            $('#content').load(page);
+        }
+        function loadChiffonAndBundtCake(page) {
+            $('#content').load(page);
+        }
+        function loadPavlova(page) {
+            $('#content').load(page);
+        }
+        function loadMeringueAndSemifreddo(page) {
+            $('#content').load(page);
+        }
+        function loadTiramisu(page) {
+            $('#content').load(page);
+        }
+        function loadMadeleines(page) {
+            $('#content').load(page);
+        }
+        function loadMuffinsAndCremeBrulee(page) {
+            $('#content').load(page);
+        }
+        function loadCreamPuffs(page) {
+            $('#content').load(page);
+        }
+        function loadMacarons(page) {
+            $('#content').load(page);
+        }
+        function loadTartAndPie(page) {
+            $('#content').load(page);
+        }
+        function loadCupcakesAndTorte(page) {
+            $('#content').load(page);
+        }
+        function loadDonuts(page) {
+            $('#content').load(page);
+        }
+        function loadWafflesPancakesAndCrepes(page) {
+            $('#content').load(page);
+        }
+        function loadCroissantsAndBread(page) {
+            $('#content').load(page);
+        }
+        function loadCookies(page) {
+            $('#content').load(page);
+        }
+    </script>
 
 
 </head>
@@ -76,24 +120,24 @@
                     MENU
                 </h2>
                 <ul class="categorymenu">
-                    <li><a href="category/Mousse.html" target="_self">Mousse</a></li>
-                    <li><a href="category/Cheesecake.html" target="_self">Cheesecake</a></li>
-                    <li><a href="category/RedVelvet.html" target="_self">Red Velvet</a></li>
-                    <li><a href="category/BakedCake.html" target="_self">Baked Cake</a></li>
-                    <li><a href="category/ChiffonAndBundtCake.html" target="_self">Chiffon And Bundt Cake</a></li>
-                    <li><a href="category/Pavlova.html" target="_self">Pavlova</a></li>
-                    <li><a href="category/MeringueAndSemifreddo.html" target="_self">Meringue And Semifreddo</a></li>
-                    <li><a href="category/Tiramisu.html" target="_self">Tiramisu</a></li>
-                    <li><a href="category/Madeleines.html" target="_self">Madeleines</a></li>
-                    <li><a href="category/MuffinsAndCrèmeBrûlée.html" target="_self">Muffins And Crème Brûlée</a></li>
-                    <li><a href="category/CreamPuffs.html" target="_self">Cream Puffs</a></li>
-                    <li><a href="category/Macarons.html" target="_self">Macarons</a></li>
-                    <li><a href="category/TartAndPie.html" target="_self">Tart And Pie</a></li>
-                    <li><a href="category/CupcakesAndTorte.html" target="_self">Cupcakes And Torte</a></li>
-                    <li><a href="category/Donuts.html" target="_self">Donuts</a></li>
-                    <li><a href="category/WafflesPancakesAndCrepes.html" target="_self">Waffles, Pancakes And Crepes</a></li>
-                    <li><a href="category/CroissantsAndBread.html" target="_self">Croissants And Bread</a></li>
-                    <li><a href="category/Cookies.html" target="_self">Cookies</a></li>
+                    <li><a onclick="return loadMousse('../category/Mousse.html')">Mousse</a></li>
+                    <li><a onclick="return loadCheesecake('../category/Cheesecake.html')" >Cheesecake</a></li>
+                    <li><a onclick="return loadRedVelvet('../category/RedVelvet.html')">Red Velvet</a></li>
+                    <li><a onclick="return loadBakedCake('../category/BakedCake.html')">Baked Cake</a></li>
+                    <li><a onclick="return loadChiffonAndBundtCake('../category/ChiffonAndBundtCake.html')">Chiffon And Bundt Cake</a></li>
+                    <li><a onclick="return loadPavlova('../category/Pavlova.html')">Pavlova</a></li>
+                    <li><a onclick="return loadMeringueAndSemifreddo('../category/MeringueAndSemifreddo.html')">Meringue And Semifreddo</a></li>
+                    <li><a onclick="return loadTiramisu('../category/Tiramisu.html')">Tiramisu</a></li>
+                    <li><a onclick="return loadMadeleines('../category/Madeleines.html')">Madeleines</a></li>
+                    <li><a onclick="return loadMuffinsAndCremeBrulee('../category/MuffinsAndCremeBrulee.html')">Muffins And Crème Brûlée</a></li>
+                    <li><a onclick="return loadCreamPuffs('../category/CreamPuffs.html')">Cream Puffs</a></li>
+                    <li><a onclick="return loadMacarons('../category/Macarons.html')">Macarons</a></li>
+                    <li><a onclick="return loadTartAndPie('../category/TartAndPie.html')">Tart And Pie</a></li>
+                    <li><a onclick="return loadCupcakesAndTorte('../category/CupcakesAndTorte.html')">Cupcakes And Torte</a></li>
+                    <li><a onclick="return loadDonuts('../category/Donuts.html')">Donuts</a></li>
+                    <li><a onclick="return loadWafflesPancakesAndCrepes('../category/WafflesPancakesAndCrepes.html')">Waffles, Pancakes And Crepes</a></li>
+                    <li><a onclick="return loadCroissantsAndBread('../category/CroissantsAndBread.html')">Croissants And Bread</a></li>
+                    <li><a onclick="return loadCookies('../category/Cookies.html')">Cookies</a></li>
                 </ul>
                 <div style="border:1px solid #0f4c81;width:200px;height:40px;margin-left:20px;border-radius:10px; margin-bottom:30px;">
                     <img style="float:right;margin-top:6px; cursor:pointer;padding-right:5px" src="https://img.icons8.com/ios/25/000000/search.png" />
@@ -106,90 +150,7 @@
                     <img src="https://img.icons8.com/ios/20/000000/filter.png" />
                     Filter
                 </div>
-                <div class="rowmenu">
-                    <div class="columnmenu">
-                        <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/09/Apple-Cider-Churros-scaled.jpg)"></div>
-                        <div style="margin-top:5px; height:40px">
-                            Lemon Poppy Seed Cake Lemon Poppy Seed Cake
-                        </div>
-                        <div style="margin-top:8px;">
-                            $ 20.00
-                        </div>
-                        <div style="margin-top:5px;height:50px">
-                            <button style="float:left;background-color:#0f4c81;
-                                        text-align:center;width:80%;color:white;
-                                        border:none;
-                                        cursor: pointer;
-                                        padding:10px;
-                                        font-size:16px;
-                                        font-family:Lora;"
-                                    id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                Add to cart
-                            </button>
-                            <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="columnmenu">
-                        <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/08/Strawberry-Frosting-11.jpg)"></div>
-                        <div style="margin-top:5px; height:40px">
-                            Apple Cider Churros
-                        </div>
-                        <div style="margin-top:8px;">
-                            $ 20.00
-                        </div>
-                        <div style="margin-top:5px;height:50px">
-                            <button style="float:left;background-color:#0f4c81;
-                                        text-align:center;width:80%;color:white;
-                                        border:none;
-                                        cursor: pointer;
-                                        padding:10px;
-                                        font-size:16px;
-                                        font-family:Lora;"
-                                    id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                Add to cart
-                            </button>
-                            <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="columnmenu">
-                        <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/06/Baked-Blueberry-Donuts-9.jpg)"></div>
-                        <div style="margin-top:5px; height:40px">
-                            Apple Cider Churros
-                        </div>
-                        <div style="margin-top:8px;">
-                            $ 20.00
-                        </div>
-                        <div style="margin-top:5px;height:50px">
-                            <button style="float:left;background-color:#0f4c81;
-                                        text-align:center;width:80%;color:white;
-                                        border:none;
-                                        cursor: pointer;
-                                        padding:10px;
-                                        font-size:16px;
-                                        font-family:Lora;"
-                                    id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                Add to cart
-                            </button>
-                            <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                            </a>
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="pagenumber" align="center">
-                    <ul>
-                        <li><a>1</a></li>
-                        <li><a>2</a></li>
-                        <li><a>3</a></li>
-                    </ul>
+                <div id="content">
                 </div>
             </div>
             <div id="clear"></div>
@@ -255,11 +216,7 @@
             </div>
         </footer>
     </div>
+    
 
-    <script>
-        $(".heart.fa").click(function () {
-            $(this).toggleClass("fa-heart fa-heart-o");
-        });
-    </script>
 </body>
 </html>

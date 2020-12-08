@@ -91,7 +91,7 @@ header {
         }
 
 .menuleft {
-    width: 280px;
+    width: 270px;
     float: left;
     height: auto;
     min-height: 100%;
@@ -167,7 +167,8 @@ header {
 }
 .categorymenu li a {
     text-decoration: none;
-    color: black
+    color: black;
+    cursor:pointer
 }
 .categorymenu li a:hover{
     text-decoration:underline
@@ -192,3 +193,10 @@ header {
 .pagenumber ul {
     list-style: none;
 }
+/*.object {
+    float:right;
+    width: 960px;
+    height: 100%;
+    min-height: 100%;
+    overflow:visible;
+}*/
