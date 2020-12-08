@@ -8,31 +8,27 @@
 const displayProducts = (products, place) => {
     let display = products.map(
         ({ title, image, price }) => `<div class="column">
-         
-                    <div class="thumb" style="background-image: url(${image})"></div>
+  
+              
+<div class="thumb" style="background-image: url(${image})"></div>
                     <div class="titlecake">
-                        <table style="width:280px">
-                            <tr>
-                                <td style="width:220px;text-align:left;height:40px;vertical-align:top" colspan="2">
-                                    <font style="float:left">${title}</font><br />
-                                    
-                                </td>
-                                <td style="text-align:right;width:60px;vertical-align:top;height:40px">
-                                    <a class="iconheart" href="#"><i class="far fa-heart" id="heart"></i></a>
-                                    <a class="iconcart" href="#"><i class="fas fa-cart-plus"></i></a>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <font style="float:left">${price}</font>
-                                </td>
-                            </tr>
-
-                        </table>
+                        <div style="width:280px;height:40px">
+                            <div style="float:left;width:220px">
+                                <font style="float:left">${title}</font>
+                            </div>
+                            <div style="float:right">
+                                <a style="font-size:25px; cursor:pointer">
+                                    <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
+                                </a>
+                                <a href="Addtocart.html" target="_self"><img style="margin-bottom:12px" src="https://img.icons8.com/ios/25/000000/shopping-bag.png" /></a>
+                            </div>
+                        </div>
+                        <div>
+                            ${price}
+                        </div>
 
                     </div>
-              
+
            
         </div>`
     );

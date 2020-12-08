@@ -69,11 +69,15 @@
         function loadCookies(page) {
             $('#content').load(page);
         }
+        function startTab() {
+                document.getElementById("defaultOpen").click();
+
+        }
     </script>
 
 
 </head>
-<body>
+<body onload="startTab()">
     <div>
         <div style="width:100%;background-color:#0f4c81; height:155px" align="center">
             <div style="height:154px; width:1300px">
@@ -120,7 +124,7 @@
                     MENU
                 </h2>
                 <ul class="categorymenu">
-                    <li><a onclick="return loadMousse('../category/Mousse.html')">Mousse</a></li>
+                    <li><a id="defaultOpen" onclick="return loadMousse('../category/Mousse.html')">Mousse</a></li>
                     <li><a onclick="return loadCheesecake('../category/Cheesecake.html')" >Cheesecake</a></li>
                     <li><a onclick="return loadRedVelvet('../category/RedVelvet.html')">Red Velvet</a></li>
                     <li><a onclick="return loadBakedCake('../category/BakedCake.html')">Baked Cake</a></li>
