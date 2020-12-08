@@ -136,6 +136,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
+    margin-bottom: 20px
 }
 
 
@@ -170,4 +171,24 @@ header {
 }
 .categorymenu li a:hover{
     text-decoration:underline
+}
+.pagenumber ul li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+    .pagenumber ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .pagenumber ul li a:hover {
+            text-decoration: underline;
+        }
+
+.pagenumber ul {
+    list-style: none;
 }
