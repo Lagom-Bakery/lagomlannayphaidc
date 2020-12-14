@@ -1,5 +1,5 @@
 ﻿const getProducts = async () => {
-    const res = await fetch("data//cate-1.json");
+    const res = await fetch("data//cate-4.json");
     const data = await res.json();
     const products = data.products;
     return products;
@@ -68,7 +68,78 @@ trang3.addEventListener("click", async () => {
 
     displayProducts(menuCat, row);
 });
+//lọc sp trang 4
+const trang4 = document.querySelector(".trang4");
+trang4.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 4);
 
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 5
+const trang5 = document.querySelector(".trang5");
+trang5.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 5);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 6
+const trang6 = document.querySelector(".trang6");
+trang6.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 6);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 7
+const trang7 = document.querySelector(".trang7");
+trang7.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 7);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 8
+const trang8 = document.querySelector(".trang8");
+trang8.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 8);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 9
+const trang9 = document.querySelector(".trang9");
+trang9.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 9);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 10
+const trang10 = document.querySelector(".trang10");
+trang10.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 10);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 11
+const trang11 = document.querySelector(".trang11");
+trang11.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 11);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 12
+const trang12 = document.querySelector(".trang12");
+trang12.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 12);
+
+    displayProducts(menuCat, row);
+});
 
 const row = document.querySelector(".rowmenu");
 //mặc định hiện list sản phẩm mặc định

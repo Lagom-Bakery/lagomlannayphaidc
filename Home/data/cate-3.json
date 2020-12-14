@@ -1,0 +1,106 @@
+{
+  "products": [
+  {
+    "title": "Raspberry Pink Velvet Cake",
+    "price": "$ 38.50",
+    "image": "https://hips.hearstapps.com/clv.h-cdn.co/assets/17/09/1488469820-ripe-for-pick-raspberry-cheesecake-0417.jpg?crop=1.0xw:1xh;center,top&resize=980:*",
+    "category": 1
+  },
+  {
+    "title": "Cream Cheese Red Velvet Cake",
+    "price": "$ 35.50",
+    "image": "https://thebananadiaries.com/wp-content/uploads/2020/08/vegan-red-velvet-cake_7286-2.jpg",
+    "category": 1
+  },
+  {
+    "title": "Christmas Red Velvet Cake",
+    "price": "$ 29.50",
+    "image": "http://www.sugaretal.com/wp-content/uploads/2016/12/589A3455-768x1152.jpg",
+    "category": 1
+  },
+  {
+    "title": "Red Rose Red Velvet Cake",
+    "price": "$ 31.00",
+    "image": "https://www.dessertfortwo.com/wp-content/uploads/2019/02/red-velvet-cake-recipe.jpg",
+    "category": 1
+  },
+  {
+    "title": "Cranberry Red Velvet Cake",
+    "price": "$ 33.00",
+    "image": "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800/https://www.savingdessert.com/wp-content/uploads/2018/12/Red-Velvet-Cake-1.jpg",
+    "category": 1
+  },
+  {
+    "title": "Coconut Cream Cheese Red Velvet Cake",
+    "price": "$ 38.50",
+    "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2012%2F11%2F2138801_redve0806fa_0-1.jpg",
+    "category": 1
+  },
+  {
+    "title": "Cream Red Velvet Cake",
+    "price": "$ 35.50",
+    "image": "http://blogmegasilvita.com/wp-content/uploads/2017/04/tarta-red-velvet-1.jpg",
+    "category": 1
+  },
+  {
+    "title": "Classic Red Velvet Cake",
+    "price": "$ 37.00",
+    "image": "https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-project-master/default/dwdc025c87/images/project/WLRECIP-58/WLRECIP-58_1.jpg?sw=800&sh=800",
+    "category": 1
+  },
+  {
+    "title": "Cream Cheese Red Velvet Cake",
+    "price": "$ 37.00",
+    "image": "https://images.squarespace-cdn.com/content/v1/5373ea4de4b0cc867098115d/1581308246825-OOPSR0NX575QUUMG5DRX/ke17ZwdGBToddI8pDm48kAckkZW-Iex6Bn4Lupzzss0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdIMnJpWK1DTpuRZRjQ4zGSYEIs2G7syBS8TzIS-dJSVDJ_ZGgHxM_HEHh7pPMZfNbw/red+velvet+cake+with+cream+cheese+frosting+recipe?format=1000w",
+    "category": 1
+  },
+  {
+    "title": "Triple Berry Red Velvet Cake",
+    "price": "$ 36.50",
+    "image": "https://4.bp.blogspot.com/-QT7fRZKDjhk/VyUJisRqU8I/AAAAAAAAN_8/RYWNJljpaWEJ_0gRHDW5aMbjTqbJKWztACLcB/s1600/Bizcocho%2BRed%2BVelvet%2Bcon%2BFrutos%2BRojos%2B2.JPG",
+    "category": 2
+  },
+  {
+    "title": "Rose Red Velvet Cake",
+    "price": "$ 36.25",
+    "image": "https://media.mykaramelli.com/galeria/images/tarta-red-velvet-corte.jpg",
+    "category": 2
+  },
+  {
+    "title": "Cherry Red Velvet Cake",
+    "price": "$ 31.00",
+    "image": "https://lovingitvegan.com/wp-content/uploads/2015/10/Vegan-Red-Velvet-Cake-4.jpg",
+    "category": 2
+  },
+  {
+    "title": "Frozen Strawberry Red Velvet Cake",
+    "price": "$ 33.00",
+    "image": "https://bakingamoment.com/wp-content/uploads/2018/05/IMG_7709-red-velvet-layer-cake-square.jpg",
+    "category": 2
+  },
+  {
+    "title": "Red Velvet Cake",
+    "price": "$ 38.50",
+    "image": "https://orders.portosbakery.com/menu_image/item_199,1360,1020",
+    "category": 2
+  },
+  {
+    "title": "Berry Red Cake",
+    "price": "$ 36.25",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/69.jpg",
+    "category": 2
+  },
+  {
+    "title": "Berry White Cake",
+    "price": "$ 29.50",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/28.jpg",
+    "category": 2
+  },
+  {
+    "title": "Red Velvet Cake",
+    "price": "$ 31.00",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/30.jpg",
+    "category": 2
+  }
+]
+}

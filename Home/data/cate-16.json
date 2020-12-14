@@ -1,0 +1,166 @@
+{
+  "products": [
+  {
+    "title": "Blueberry Buttermilk Waffles",
+    "price": "$ 16.50",
+    "image": "https://www.thekitchenmccabe.com/wp-content/uploads/2020/03/37B235BE-931F-428E-BE29-BACE962C0FA6-768x1152.jpeg",
+    "category": 1
+  },
+  {
+    "title": "Belgian Waffles",
+    "price": "$ 17.25",
+    "image": "http://static-cdn1.vigbo.tech/u6761/8118/blog/543066/39114/188427/1000-810097223495a46c15a9acf83bc3cbd2.jpg",
+    "category": 1
+  },
+  {
+    "title": "Browned Honey Chamomile Waffles",
+    "price": "$ 16.00",
+    "image": "http://www.thenewpotato.com/wp-content/uploads/2017/10/waffles-with-honey-butter-recipe-1.jpg",
+    "category": 1
+  },
+  {
+    "title": "Tiramisu Crepe Cake",
+    "price": "$ 18.50",
+    "image": "https://i2.wp.com/baketotheroots.de/wp-content/uploads/2019/01/HK_181216_TiramisuCrepeCake16.jpg",
+    "category": 1
+  },
+  {
+    "title": "Lemon Ricotta Cheese Strawberry Crepes",
+    "price": "$ 19.25",
+    "image": "https://www.halfbakedharvest.com/wp-content/uploads/2014/05/Lemon-Ricotta-Cheese-Stuffed-French-Toast-Crepes-with-Vanilla-Stewed-Strawberries-114.jpg",
+    "category": 1
+  },
+  {
+    "title": "Triple Berry Crepes",
+    "price": "$ 16.50",
+    "image": "https://foodistas.de/wp-content/uploads/2018/01/crepetorte-quark-beeren-1-709x1061.jpg",
+    "category": 1
+  },
+  {
+    "title": "Lemon Cream And Strawberry Waffles",
+    "price": "$ 17.25",
+    "image": "https://www.halfbakedharvest.com/wp-content/uploads/2018/03/Overnight-Waffles-with-Whipped-Meyer-Lemon-Cream-and-Strawberries-1-1.jpg",
+    "category": 1
+  },
+  {
+    "title": "Lemon Mascarpone Crepes",
+    "price": "$ 16.00",
+    "image": "https://i2.wp.com/completelydelicious.com/wp-content/uploads/2018/03/lemon-mascarpone-crepe-cake-4.jpg",
+    "category": 1
+  },
+  {
+    "title": "Banana Coconut Mochi Waffles",
+    "price": "$ 18.50",
+    "image": "https://www.litosupply.co/wp-content/uploads/2020/03/easy-banana-coconut-mochi-waffles_lito-supply-co_01-scaled.jpeg",
+    "category": 1
+  },
+  {
+    "title": "Pumpkim Blender Waffles",
+    "price": "$ 19.25",
+    "image": "https://bromabakery.com/wp-content/uploads/2017/11/Pumpkin-Spice-Blender-Pancakes.jpg",
+    "category": 2
+  },
+  {
+    "title": "Chocolate Strawberry Buttermilk Waffles",
+    "price": "$ 18.00",
+    "image": "https://www.nutmegnanny.com/wp-content/uploads/2016/02/chocolate-covered-strawberry-buttermilk-waffles.jpg.webp",
+    "category": 2
+  },
+  {
+    "title": "Churro Waffles",
+    "price": "$ 17.00",
+    "image": "https://i2.wp.com/www.justputzing.com/wp-content/uploads/2016/05/Churro-Waffles-13.jpg?w=667&ssl=1",
+    "category": 2
+  },
+  {
+    "title": "Tiramisu Waffles",
+    "price": "$ 16.50",
+    "image": "https://www.loveandoliveoil.com/wp-content/uploads/2015/04/wafflemisu2.jpg",
+    "category": 2
+  },
+  {
+    "title": "Vanilla Cake Waffles",
+    "price": "$ 19.00",
+    "image": "https://simply-delicious-food.com/wp-content/uploads/2017/06/vanilla-cake-waffles-2.jpg",
+    "category": 2
+  },
+  {
+    "title": "Dark Chocolate Cherry Balsamic Waffles",
+    "price": "$ 18.50",
+    "image": "https://d33wubrfki0l68.cloudfront.net/078259b703993ccac4ceb92e7a524d1aeb15264a/24cf3/images/uploads/2018_08_10_dark_chocolate_waffles_with_cherry_balsamic_compote_2.jpg",
+    "category": 2
+  },
+  {
+    "title": "Sourdough Belgian Waffles",
+    "price": "$ 19.25",
+    "image": "https://www.thekitchenmccabe.com/wp-content/uploads/2018/05/Sourdough-Belgian-Waffles-15-1-of-1.jpg",
+    "category": 2
+  },
+  {
+    "title": "Oat Waffles With Banana",
+    "price": "$ 16.50",
+    "image": "https://bakewithshivesh.com/wp-content/uploads/2020/09/IMG-7727.jpg",
+    "category": 2
+  },
+  {
+    "title": "Brown Butter Waffles",
+    "price": "$ 17.25",
+    "image": "https://images.squarespace-cdn.com/content/v1/568f2119841abaff89057c47/1585176578323-X0CJD4VQYB645S34FF2K/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/waffles+5.jpg?format=1000w",
+    "category": 2
+  },
+  {
+    "title": "Marshmallow Pancakes",
+    "price": "$ 16.00",
+    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/15/13/480x641/gallery-1427121250-ombre-pancakes.jpg?resize=980:*",
+    "category": 3
+  },
+  {
+    "title": "Brown Butter And Chocolate Waffles",
+    "price": "$ 18.50",
+    "image": "https://images.squarespace-cdn.com/content/v1/568f2119841abaff89057c47/1585176578323-X0CJD4VQYB645S34FF2K/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/waffles+5.jpg?format=1000w",
+    "category": 3
+  },
+  {
+    "title": "Chocolate Butter Milk Belgian Waffles",
+    "price": "$ 19.25",
+    "image": "https://kitchenconfidante.com/wp-content/uploads/2015/07/Chocolate-Buttermilk-Belgian-Waffles-www.kitchenconfidante.com-DSC_0664.jpg",
+    "category": 3
+  },
+  {
+    "title": "Red Velvet Pancakes",
+    "price": "$ 18.00",
+    "image": "https://foodlovin.de/wp-content/uploads/2018/02/valentinstag-red-velvet-1063x648.jpg",
+    "category": 3
+  },
+  {
+    "title": "Rainbow Waffles",
+    "price": "$ 17.00",
+    "image": "https://foodlovin.de/wp-content/uploads/2018/02/valentinstag-red-velvet-1063x648.jpg",
+    "category": 3
+  },
+  {
+    "title": "Red Velvet Strawberry Waffles",
+    "price": "$ 16.50",
+    "image": "https://www.sheknows.com/wp-content/uploads/2018/08/dyed-strawberry-waffles-vertical_wxxkdl.jpeg",
+    "category": 3
+  },
+  {
+    "title": "Banana Honey Crepes",
+    "price": "$ 19.00",
+    "image": "https://www.lecremedelacrumb.com/wp-content/uploads/2020/04/banana-crepe-filling-7sm-5-1024x1536.jpg",
+    "category": 3
+  },
+  {
+    "title": "Strawberry Nutella Crepes",
+    "price": "$ 16.50",
+    "image": "http://deliciouslyyum.com/wp-content/uploads/2014/05/nutella-banana-crepes-6.jpg",
+    "category": 3
+  },
+  {
+    "title": "Banana  Walnuts Crepes",
+    "price": "$ 19.00",
+    "image": "https://www.chelseasmessyapron.com/wp-content/uploads/2019/02/Banana-Crepes-2.jpg",
+    "category": 3
+  }
+]
+}

@@ -1,0 +1,136 @@
+{
+  "products": [
+  {
+    "title": "Carrot Cupcakes",
+    "price": "$ 22.50",
+    "image": "https://i1.wp.com/baketotheroots.de/wp-content/uploads/2018/03/HK_180107_CarrotCakeCupcakesEN.jpg",
+    "category": 1
+  },
+  {
+    "title": "Funfetti Cupcake",
+    "price": "$ 23.50",
+    "image": "https://cdn.shopify.com/s/files/1/1981/3807/products/2417_2048x.jpg?v=1596739262",
+    "category": 1
+  },
+  {
+    "title": "Red Velvet Cupcake",
+    "price": "$ 22.00",
+    "image": "https://cdn.shopify.com/s/files/1/1981/3807/products/2413_2048x.jpg?v=1596739474",
+    "category": 1
+  },
+  {
+    "title": "Mostest Cupcake",
+    "price": "$ 24.25",
+    "image": "https://cdn.shopify.com/s/files/1/1981/3807/products/2405_2048x.jpg?v=1596739401",
+    "category": 1
+  },
+  {
+    "title": "Vanilla Cupcake",
+    "price": "$ 25.25",
+    "image": "https://cdn.shopify.com/s/files/1/1981/3807/products/2421_2048x.jpg?v=1596739528",
+    "category": 1
+  },
+  {
+    "title": "Orange and Cinnamon Cupcakes",
+    "price": "$ 22.25",
+    "image": "https://wholesomepatisserie.com/wp-content/uploads/2020/08/Chocolate-Madeleines-500x500.jpg",
+    "category": 1
+  },
+  {
+    "title": "Strawberry Cupcakes",
+    "price": "$ 22.50",
+    "image": "https://bakewithshivesh.com/wp-content/uploads/2019/01/eggless-strawberry-cupcakes.jpg",
+    "category": 1
+  },
+  {
+    "title": "Lady Grey Orange Zest Frosting Cupcakes",
+    "price": "$ 23.50",
+    "image": "https://hips.hearstapps.com/clv.h-cdn.co/assets/17/14/1491502703-clx040116brkcakes-05-2.jpg?crop=1.0xw:1xh;center,top&resize=980:*",
+    "category": 1
+  },
+  {
+    "title": "Christmas Cupcakes",
+    "price": "$ 22.00",
+    "image": "https://64.media.tumblr.com/4f9a297c4256eb3b3022745396679a11/tumblr_p0i63pTRbt1rpwhvdo1_1280.jpg",
+    "category": 1
+  },
+  {
+    "title": "Gingerbread Cupcakes",
+    "price": "$ 24.25",
+    "image": "http://www.justcakegirl.com/wp-content/uploads/2018/12/IMG_0718.jpg",
+    "category": 2
+  },
+  {
+    "title": "Gingerbread Cupcakes",
+    "price": "$ 25.25",
+    "image": "https://www.thekitchenmccabe.com/wp-content/uploads/2014/10/Gingerbread-Cookie-Cups-with-Pumpkin-Mousse-Cider-Caramel-4-596x900.jpg",
+    "category": 2
+  },
+  {
+    "title": "Nutella And Mocha Cupcake",
+    "price": "$ 22.25",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1499870319053-SI1R9XQQSPLI6U4TL7UR/ke17ZwdGBToddI8pDm48kBelsVAev15nrlBAFMzKsdEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2tU2ReFwpVgSm7x-SgOFtAmJMoyi-Ta5HHhO2BVXHKKXdZR9z9mxWb0yLUToVqwSd/juliemarieeats.com+%2F%2F+Rich+Chocolate+Cupcake+with+Nutella+Core+and+Fluffy+Mocha+Buttercream?format=1000w",
+    "category": 2
+  },
+  {
+    "title": "Caramel Vanilla Buttercream Oat Flakes Cupcake",
+    "price": "$ 23.50",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1504785624506-WGRWQ0O3K48M9QZVSO4N/ke17ZwdGBToddI8pDm48kBelsVAev15nrlBAFMzKsdEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z2tU2ReFwpVgSm7x-SgOFtAmJMoyi-Ta5HHhO2BVXHKKXdZR9z9mxWb0yLUToVqwSd/juliemarieeats.com+%2F%2F+Brown+Sugar+Cupcake+with+Salted+Caramel+Buttercream?format=1000w",
+    "category": 2
+  },
+  {
+    "title": "Weihnachliche Cranberry Rosmarin Torte",
+    "price": "$ 27.50",
+    "image": "https://sabrinasue.de/wp-content/uploads/2016/12/Cranberry-Thyme-Cake4426.jpg",
+    "category": 2
+  },
+  {
+    "title": "Beschwipste Birnen Konos Torte",
+    "price": "$ 26.00",
+    "image": "https://sabrinasue.de/wp-content/uploads/2015/11/Birnen-Kokos-Torte-Sesam-Mandel-Krokant3.jpg",
+    "category": 2
+  },
+  {
+    "title": "Chocolate Raspberry Torte",
+    "price": "$ 28.25",
+    "image": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_344/41018-sfs-chocolate-raspberry-torte-13",
+    "category": 2
+  },
+  {
+    "title": "Stracciatella Torte mit Kirschen",
+    "price": "$ 25.25",
+    "image": "https://i1.wp.com/mein-naschglueck.de/wp-content/uploads/2019/01/Stracciatella-Torte-mit-Kirschen-00588.jpg?resize=768%2C1024&ssl=1",
+    "category": 2
+  },
+  {
+    "title": "Peanutbutter Schoko Torte",
+    "price": "$ 27.00",
+    "image": "https://i2.wp.com/mein-naschglueck.de/wp-content/uploads/2019/06/Peanutbutter-Schoko-Torte-00260.jpg?resize=768%2C1152&ssl=1",
+    "category": 2
+  },
+  {
+    "title": "Erdbeer Stracciatella Torte",
+    "price": "$ 25.00",
+    "image": "https://i0.wp.com/mein-naschglueck.de/wp-content/uploads/2019/05/Erdbeer-Stracciatella-Torte-01455.jpg?resize=768%2C1152&ssl=1",
+    "category": 3
+  },
+  {
+    "title": "Joghurt Himbeer Torte",
+    "price": "$ 30.00",
+    "image": "https://i2.wp.com/mein-naschglueck.de/wp-content/uploads/2019/06/Joghurt-Himbeer-Torte-00787.jpg?resize=683%2C1024&ssl=1",
+    "category": 3
+  },
+  {
+    "title": "Zitronencreme Torte mit Lemon Curd",
+    "price": "$ 29.50",
+    "image": "https://i0.wp.com/mein-naschglueck.de/wp-content/uploads/2019/03/Zitronencreme-Torte-00865.jpg?resize=683%2C1024&ssl=1",
+    "category": 3
+  },
+  {
+    "title": "Erdbeer Karamell Torte",
+    "price": "$ 27.50",
+    "image": "https://i1.wp.com/mein-naschglueck.de/wp-content/uploads/2020/05/Erdbeer-Karamell-Torte-5.jpg?w=533&ssl=1",
+    "category": 3
+  }
+]
+}

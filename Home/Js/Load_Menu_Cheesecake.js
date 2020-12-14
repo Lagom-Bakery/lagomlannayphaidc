@@ -94,10 +94,12 @@ trang6.addEventListener("click", async () => {
 });
 
 const row = document.querySelector(".rowmenu");
-//mặc định hiện list sản phẩm hiện có
+//mặc định hiện list sản phẩm mặc định
 window.addEventListener("DOMContentLoaded", async () => {
     const products = await getProducts();
-    displayProducts(products, row);
+    const menuCat = products.filter(product => product.category === 1);
+
+    displayProducts(menuCat, row);
 });
 
 

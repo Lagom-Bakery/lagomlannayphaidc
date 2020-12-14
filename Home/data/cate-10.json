@@ -1,0 +1,118 @@
+{
+  "products": [
+  {
+    "title": "Healthy Chocolate Banana Muffins",
+    "price": "$ 25.50",
+    "image": "https://www.thebutterhalf.com/wp-content/uploads/2017/02/healthychocolatebananaflaxmuffins3.png",
+    "category": 1
+  },
+  {
+    "title": "Cherry Oat Muffins",
+    "price": "$ 25.00",
+    "image": "https://www.thekitchenmccabe.com/wp-content/uploads/2017/06/cherry-oat-muffins-1-1.jpg",
+    "category": 1
+  },
+  {
+    "title": "Pumpkin Spice Muffins",
+    "price": "$ 30.00",
+    "image": "https://healthylittlecravings.com/wp-content/uploads/2018/10/pumpkin-healthy-muffins-4.jpg",
+    "category": 1
+  },
+  {
+    "title": "Pumpkin Chocolate Chip Muffins",
+    "price": "$ 29.50",
+    "image": "https://healthylittlecravings.com/wp-content/uploads/2020/11/pumpkin-chocolate-chip-muffins-7.jpg",
+    "category": 1
+  },
+  {
+    "title": "Banana Muffins",
+    "price": "$ 27.50",
+    "image": "https://i2.wp.com/completelydelicious.com/wp-content/uploads/2009/06/banana-crunch-muffins-3.jpg",
+    "category": 1
+  },
+  {
+    "title": "Lavender Crème Brûlée",
+    "price": "$ 26.00",
+    "image": "https://i0.wp.com/zoebakes.com/wp-content/uploads/2018/07/creme-brulee-ZoeBakes-12-of-9.jpg?w=650&ssl=1",
+    "category": 1
+  },
+  {
+    "title": "Strawberry Muffins",
+    "price": "$ 28.25",
+    "image": "https://healthylittlecravings.com/wp-content/uploads/2020/04/strawberry-muffins-recipe-4-768x1154.jpg",
+    "category": 1
+  },
+  {
+    "title": "Coconut Mango Muffins",
+    "price": "$ 25.25",
+    "image": "https://www.theclevercarrot.com/wp-content/uploads/2016/01/coconut-mango-muffin-tin.jpg",
+    "category": 1
+  },
+  {
+    "title": "Blueberry Lavender Muffins",
+    "price": "$ 27.00",
+    "image": "https://d33wubrfki0l68.cloudfront.net/fef261753535e7526c1231767d6685d0b72d5948/eba6a/images/uploads/2018_05_10_blueberry_lavender_muffins_2.jpg",
+    "category": 1
+  },
+  {
+    "title": "Blackberry Swirl Muffins",
+    "price": "$ 25.00",
+    "image": "https://www.halfbakedharvest.com/wp-content/uploads/2017/05/Blackberry-Swirl-Muffins-with-Honey-Butter-1.jpg",
+    "category": 2
+  },
+  {
+    "title": "Mango Oatmeal Muffins",
+    "price": "$ 30.00",
+    "image": "https://thewoksoflife.com/wp-content/uploads/2019/04/mango-muffins-13.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Apple Cinnamon",
+    "price": "$ 29.50",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/56.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Blueberry",
+    "price": "$ 27.50",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/55.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Cherry Almond",
+    "price": "$ 26.00",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/54.jpg",
+    "category": 2
+  },
+  {
+    "title": "Chocolate Chunks Muffins",
+    "price": "$ 28.25",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/53.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Vanilla",
+    "price": "$ 25.25",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/52.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Caramel",
+    "price": "$ 27.00",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/51.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Spice Raisins",
+    "price": "$ 25.00",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/50.jpg",
+    "category": 2
+  },
+  {
+    "title": "Muffin Red Velvet",
+    "price": "$ 30.00",
+    "image": "http://www.sweetdelight.eu/pict/product/face1/49.jpg",
+    "category": 3
+  }
+]
+}

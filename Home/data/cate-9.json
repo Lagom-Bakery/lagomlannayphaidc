@@ -1,0 +1,76 @@
+{
+  "products": [
+  {
+    "title": "Chocolate Madeleines",
+    "price": "$ 23.25",
+    "image": "https://wholesomepatisserie.com/wp-content/uploads/2020/08/Chocolate-Madeleines-500x500.jpg",
+    "category": 1
+  },
+  {
+    "title": "Browned Butter Vanilla Bean Madeleines",
+    "price": "$ 21.50",
+    "image": "https://www.thekitchenmccabe.com/wp-content/uploads/2019/08/Browned-Butter-Madeleines-32-1-of-1-768x1152.jpg",
+    "category": 1
+  },
+  {
+    "title": "Pistachio Lime Matcha Madeleines",
+    "price": "$ 21.00",
+    "image": "https://www.countryhillcottage.com/wp-content/uploads/2019/03/Country_Hill_Cottage_Pistachio_Matcha_Madeleines-07-.jpg",
+    "category": 1
+  },
+  {
+    "title": "Pistachio Rosewater Madeleines",
+    "price": "$ 23.25",
+    "image": "https://i0.wp.com/foodduchess.com/wp-content/uploads/2020/01/Pistachio-Madeleines00281-2.jpg?resize=768%2C960&ssl=1",
+    "category": 1
+  },
+  {
+    "title": "Red Velvet Madeleines",
+    "price": "$ 20.50",
+    "image": "https://bethcakes.com/wp-content/uploads/2020/01/red-velvet-madeleines-01A-1024x1536.jpg",
+    "category": 1
+  },
+  {
+    "title": "Rose Madeleines",
+    "price": "$ 22.00",
+    "image": "https://bakingthegoods.com/wp-content/uploads/2019/01/Rose-Rose%CC%81-Madeleines-35.jpg",
+    "category": 1
+  },
+  {
+    "title": "Almond Raspberry Glaze Madeleines",
+    "price": "$ 23.25",
+    "image": "https://www.abakingjourney.com/wp-content/uploads/2018/08/Raspberry-Almond-Madeleines-Feature.webp",
+    "category": 1
+  },
+  {
+    "title": "Matcha Dipped Chocolate Madeleines",
+    "price": "$ 21.50",
+    "image": "https://data.thefeedfeed.com/static/2020/01/27/15620791745d1b6fc6745ba.jpg",
+    "category": 1
+  },
+  {
+    "title": "Chocolate Dipped Pistachio Madeleines",
+    "price": "$ 21.00",
+    "image": "https://supermancooks.com/wp-content/uploads/2016/08/chocolate-dipped-pistachio-madeleines2a-1021x1536.jpg",
+    "category": 1
+  },
+  {
+    "title": "Vanilla Bean Browned Butter Madeleines",
+    "price": "$ 23.25",
+    "image": "https://asimplepantry.com/wp-content/uploads/2019/11/Vanilla-Bean-Browned-Butter-Madeleine-Recipe-8-768x1152.jpg",
+    "category": 2
+  },
+  {
+    "title": "Rosemary Strawberry Madeleines",
+    "price": "$ 20.50",
+    "image": "https://acupcakeforlove.files.wordpress.com/2015/12/dsc06761.jpg",
+    "category": 2
+  },
+  {
+    "title": "Lemon Poppyseed French Madeleines",
+    "price": "$ 22.00",
+    "image": "https://twocupsflour.com/wp-content/uploads/2018/03/web-madeleine-420-1-1080x1620.jpg",
+    "category": 2
+  }
+]
+}

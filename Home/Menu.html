@@ -13,62 +13,7 @@
     <link href="../CSS/CSSFooter.css" rel="stylesheet" />
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        function loadMousse(page) {
-            // document.getElementById("content").innerHTML='<object         type="text/html" data="' + page + '" style="width:600px;" ></object>';
-            $('#content').load(page);
-
-        }
-        function loadCheesecake(page) {
-            $('#content').load(page);
-        }
-        function loadRedVelvet(page) {
-            $('#content').load(page);
-        }
-        function loadBakedCake(page) {
-            $('#content').load(page);
-        }
-        function loadChiffonAndBundtCake(page) {
-            $('#content').load(page);
-        }
-        function loadPavlova(page) {
-            $('#content').load(page);
-        }
-        function loadMeringueAndSemifreddo(page) {
-            $('#content').load(page);
-        }
-        function loadTiramisu(page) {
-            $('#content').load(page);
-        }
-        function loadMadeleines(page) {
-            $('#content').load(page);
-        }
-        function loadMuffinsAndCremeBrulee(page) {
-            $('#content').load(page);
-        }
-        function loadCreamPuffs(page) {
-            $('#content').load(page);
-        }
-        function loadMacarons(page) {
-            $('#content').load(page);
-        }
-        function loadTartAndPie(page) {
-            $('#content').load(page);
-        }
-        function loadCupcakesAndTorte(page) {
-            $('#content').load(page);
-        }
-        function loadDonuts(page) {
-            $('#content').load(page);
-        }
-        function loadWafflesPancakesAndCrepes(page) {
-            $('#content').load(page);
-        }
-        function loadCroissantsAndBread(page) {
-            $('#content').load(page);
-        }
-        function loadCookies(page) {
-            $('#content').load(page);
-        }
+        
         function startTab() {
                 document.getElementById("defaultOpen").click();
 
@@ -123,25 +68,26 @@
                 <h2>
                     MENU
                 </h2>
+ 
                 <ul class="categorymenu">
-                    <li><a id="defaultOpen" onclick="return loadMousse('../category/Mousse.html')">Mousse</a></li>
-                    <li><a onclick="return loadCheesecake('../category/Cheesecake.html')" >Cheesecake</a></li>
-                    <li><a onclick="return loadRedVelvet('../category/RedVelvet.html')">Red Velvet</a></li>
-                    <li><a onclick="return loadBakedCake('../category/BakedCake.html')">Baked Cake</a></li>
-                    <li><a onclick="return loadChiffonAndBundtCake('../category/ChiffonAndBundtCake.html')">Chiffon And Bundt Cake</a></li>
-                    <li><a onclick="return loadPavlova('../category/Pavlova.html')">Pavlova</a></li>
-                    <li><a onclick="return loadMeringueAndSemifreddo('../category/MeringueAndSemifreddo.html')">Meringue And Semifreddo</a></li>
-                    <li><a onclick="return loadTiramisu('../category/Tiramisu.html')">Tiramisu</a></li>
-                    <li><a onclick="return loadMadeleines('../category/Madeleines.html')">Madeleines</a></li>
-                    <li><a onclick="return loadMuffinsAndCremeBrulee('../category/MuffinsAndCremeBrulee.html')">Muffins And Crème Brûlée</a></li>
-                    <li><a onclick="return loadCreamPuffs('../category/CreamPuffs.html')">Cream Puffs</a></li>
-                    <li><a onclick="return loadMacarons('../category/Macarons.html')">Macarons</a></li>
-                    <li><a onclick="return loadTartAndPie('../category/TartAndPie.html')">Tart And Pie</a></li>
-                    <li><a onclick="return loadCupcakesAndTorte('../category/CupcakesAndTorte.html')">Cupcakes And Torte</a></li>
-                    <li><a onclick="return loadDonuts('../category/Donuts.html')">Donuts</a></li>
-                    <li><a onclick="return loadWafflesPancakesAndCrepes('../category/WafflesPancakesAndCrepes.html')">Waffles, Pancakes And Crepes</a></li>
-                    <li><a onclick="return loadCroissantsAndBread('../category/CroissantsAndBread.html')">Croissants And Bread</a></li>
-                    <li><a onclick="return loadCookies('../category/Cookies.html')">Cookies</a></li>
+                    <li><a id="defaultOpen" href="Mousse.html" target="menu">Mousse</a></li>
+                    <li><a href="Cheesecake.html" target="menu">Cheesecake</a></li>
+                    <li><a href="RedVelvet.html" target="menu">Red Velvet</a></li>
+                    <li><a href="BakedCake.html" target="menu">Baked Cake</a></li>
+                    <li><a href="ChiffonAndBundtCake.html" target="menu">Chiffon And Bundt Cake</a></li>
+                    <li><a href="Pavlova.html" target="menu">Pavlova</a></li>
+                    <li><a href="MeringueAndSemifreddo.html" target="menu">Meringue And Semifreddo</a></li>
+                    <li><a href="Tiramisu.html" target="menu">Tiramisu</a></li>
+                    <li><a href="Madeleines.html" target="menu">Madeleines</a></li>
+                    <li><a href="MuffinsAndCremeBrulee.html" target="menu">Muffins And Crème Brûlée</a></li>
+                    <li><a href="CreamPuffs.html" target="menu">Cream Puffs</a></li>
+                    <li><a href="Macarons.html" target="menu">Macarons</a></li>
+                    <li><a href="TartAndPie.html" target="menu">Tart And Pie</a></li>
+                    <li><a href="CupcakesAndTorte.html" target="menu">Cupcakes And Torte</a></li>
+                    <li><a href="Donuts.html" target="menu">Donuts</a></li>
+                    <li><a href="WafflesPancakesAndCrepes.html" target="menu">Waffles, Pancakes And Crepes</a></li>
+                    <li><a href="CroissantsAndBread.html" target="menu">Croissants And Bread</a></li>
+                    <li><a href="Cookies.html" target="menu">Cookies</a></li>
                 </ul>
                 <div style="border:1px solid #0f4c81;width:200px;height:40px;margin-left:20px;border-radius:10px; margin-bottom:30px;">
                     <img style="float:right;margin-top:6px; cursor:pointer;padding-right:5px" src="https://img.icons8.com/ios/25/000000/search.png" />
@@ -156,6 +102,8 @@
                 </div>
                 <div id="content">
                 </div>
+                <iframe class="menuright" src="Cheesecake.html" name="menu" style="border:none;width:980px;height:1400px;margin-left:0px;margin-top:0px;" scrolling="no"></iframe>
+
             </div>
             <div id="clear"></div>
         </div>
@@ -220,7 +168,8 @@
             </div>
         </footer>
     </div>
-    
+
+    <script src="Js/Load_data_menu.js"></script>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 ﻿const getProducts = async () => {
-    const res = await fetch("data//cate-1.json");
+    const res = await fetch("data//cate-5.json");
     const data = await res.json();
     const products = data.products;
     return products;
@@ -65,6 +65,14 @@ const trang3 = document.querySelector(".trang3");
 trang3.addEventListener("click", async () => {
     const products = await getProducts();
     const menuCat = products.filter(product => product.category === 3);
+
+    displayProducts(menuCat, row);
+});
+//lọc sp trang 4
+const trang4 = document.querySelector(".trang4");
+trang4.addEventListener("click", async () => {
+    const products = await getProducts();
+    const menuCat = products.filter(product => product.category === 4);
 
     displayProducts(menuCat, row);
 });

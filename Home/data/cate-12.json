@@ -1,0 +1,112 @@
+{
+  "products": [
+  {
+    "title": "Christmas Red Macarons",
+    "price": "$ 13.00",
+    "image": "https://images.unsplash.com/photo-1543921879-815164944436?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OTF8fGNocmlzdG1hc3xlbnwwfDF8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "category": 1
+  },
+  {
+    "title": "Pretty Pink Macarons",
+    "price": "$ 12.50",
+    "image": "https://nitrocdn.com/GkXkZSZFlbqbVjcyWWkuTldZgRlBQOpe/assets/static/source/rev-6819e4d/www.healthylittlevittles.com/wp-content/uploads/2018/06/bdeb2665c0e26fdfc8bf52ebec5a53b7.pretty-pink-macarons-2-min.jpg",
+    "category": 1
+  },
+  {
+    "title": "Raspberry Macarons",
+    "price": "$ 14.00",
+    "image": "https://i.etsystatic.com/13253798/r/il/635e5c/1571137497/il_1140xN.1571137497_21n2.jpg",
+    "category": 1
+  },
+  {
+    "title": "Chocolate Raspberry Macarons",
+    "price": "$ 13.00",
+    "image": "https://ohsprinkles.com/wp-content/uploads/2016/02/Chocolate_Raspberry_Macarons2.jpg",
+    "category": 1
+  },
+  {
+    "title": "Lollipops Snowmen Macarons",
+    "price": "$ 14.50",
+    "image": "https://static.mojewypieki.com/wp-content/uploads/2020/03/Makaroniki_ba%C5%82wanki_3.jpg",
+    "category": 1
+  },
+  {
+    "title": "Earl Grey Cassis Macarons",
+    "price": "$ 14.50",
+    "image": "https://now-forager.com/wp-content/uploads/2015/03/Earl-Grey-Cassis-Macarons-Now-Forager-Teresa-Floyd-Photography.jpg",
+    "category": 1
+  },
+  {
+    "title": "Zesty Lime Macarons",
+    "price": "$ 13.00",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1582203497578-KCFCDB40BI9OGL9TXYV5/ke17ZwdGBToddI8pDm48kBQ_OmUn0XNjqwyBYOIFwXV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p5uBJOnOmCWBN4JfYsIDyRB3ELHLLET9s1anQygWAMDSh6zbPa8Vo37A4r2-aOSIQ/juliemarieeats.com+%2F%2F+Zesty+Lime+Macarons?format=1500w",
+    "category": 1
+  },
+  {
+    "title": "Raspberry Macarons",
+    "price": "$ 12.50",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1584024917663-M2ZJZ0P4AJK2859VRDQV/ke17ZwdGBToddI8pDm48kK60W-ob1oA2Fm-j4E_9NQB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2Mh5VMMOxnTbph8FXiclivDQnof69TlCeE0rAhj6HUpXkw/juliemarieeats.com+%2F%2F+The+most+amazing+Raspberry+Macarons?format=1000w",
+    "category": 1
+  },
+  {
+    "title": "Oreo Mint Macarons",
+    "price": "$ 14.00",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1585558930656-8SLOTIU3QA89LIUWE5BN/ke17ZwdGBToddI8pDm48kDNmyC5FM8GiR4og3MgQa1x7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0tb-hnCqoepq4X8c1traqO_JWRA3fEpTuA5K9wzrbyCcSebwWA2O1ajdB4h3_NxcMA/juliemarieeats.com+%3A%3A+Simply+amazing+Oreo+Macarons?format=1000w",
+    "category": 1
+  },
+  {
+    "title": "Chocolate French Blackberry Macarons",
+    "price": "$ 13.00",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1499769089373-O68ZQGMFVC1TCIHT8T7Q/ke17ZwdGBToddI8pDm48kMiC1kkJMCC5CmdIxgmMBQRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwDkWRUVPzILwwU1Cm0tACnQ-gsxKt_jcXVfT9FtNluPGWW0QT5AQYLWdKSnWNUYi4/juliemarieeats.com+%2F%2F+CHOCOLATE+FRENCH+MACARONS+WITH+BLACKBERRY+BUTTERCREAM?format=1000w",
+    "category": 2
+  },
+  {
+    "title": "Silky Smooth Passion Fruit Curd Macarons",
+    "price": "$ 14.50",
+    "image": "https://images.squarespace-cdn.com/content/v1/5963cc6ce4fcb52220786bbd/1587550141492-HCVJ325TCWZ3CH6E4Z0D/ke17ZwdGBToddI8pDm48kNuZjPa9f3DCTV09DnVGQe97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kMlYkjvFlctRdmAM11rxFRMKTLkx_bSJvBBVaDsI_PiFjVATao0BPjWA4mM1jK-PQ/juliemarieeats.com+%2F%2F+Macarons+with+a+silky+smooth+Passionfruit+Curd?format=1000w",
+    "category": 2
+  },
+  {
+    "title": "Chocolate Hazenut Macarons",
+    "price": "$ 14.50",
+    "image": "https://i1.wp.com/www.butterbaking.com/wp-content/uploads/2013/02/IMG_5299.jpg",
+    "category": 2
+  },
+  {
+    "title": "White Chocolate Freeze Raspberries Macarons",
+    "price": "$ 13.00",
+    "image": "https://www.sweetandsavorybyshinee.com/wp-content/uploads/2018/06/White-Chocolate-Raspberry-Macarons-4.jpg",
+    "category": 2
+  },
+  {
+    "title": "Lemon Honey Macarons",
+    "price": "$ 12.50",
+    "image": "https://i2.wp.com/foodduchess.com/wp-content/uploads/2019/02/how-to-make-macarons00020.jpg?resize=768%2C960&ssl=1",
+    "category": 2
+  },
+  {
+    "title": "Chamomile Buttercream Macarons",
+    "price": "$ 14.00",
+    "image": "https://bakewithshivesh.com/wp-content/uploads/2020/11/IMG-9893-scaled.jpg",
+    "category": 2
+  },
+  {
+    "title": "Brombeer Macarons",
+    "price": "$ 13.00",
+    "image": "https://lacrema-patisserie.com/wp-content/uploads/2017/08/Brombeer-Macarons-1.jpg",
+    "category": 2
+  },
+  {
+    "title": "Strawberry Macarons",
+    "price": "$ 14.50",
+    "image": "https://bakewithshivesh.com/wp-content/uploads/2020/10/IMG-9033-819x1024.jpg",
+    "category": 2
+  },
+  {
+    "title": "Jasmine Rose Macarons",
+    "price": "$ 14.50",
+    "image": "https://www.bakersroyale.com/wp-content/uploads/2016/02/Jasine-Rose-Macarons-via-Bakers-Royale-630x945.jpg",
+    "category": 2
+  }
+]
+}
