@@ -7,7 +7,7 @@
 
 const displayProducts = (products, place) => {
     let display = products.map(
-        ({ title, image, price }) => `<div class="column">
+        ({ title, image, price }) => `<div class="columnmenu">
 
                 
                     <div class="thumb" style="        background-image: url(${image})"></div>
@@ -39,7 +39,7 @@ const displayProducts = (products, place) => {
 
 
 
-const row = document.querySelector(".row");
+const row = document.querySelector(".rowmenu");
 
 
 window.addEventListener("DOMContentLoaded", async () => {

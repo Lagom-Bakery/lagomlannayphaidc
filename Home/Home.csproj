@@ -104,6 +104,8 @@
     <Content Include="CSS\CSSStory.css" />
     <Content Include="CSS\MainCSS.css" />
     <None Include="data\home.json" />
+    <None Include="data\cate-2.json" />
+    <None Include="data\cate-1.json" />
     <Content Include="Home.html" />
     <Content Include="imageforhome\1.JPG" />
     <Content Include="imageforhome\2.JPG" />
@@ -126,6 +128,8 @@
     <Content Include="imageforstory\ms6.png" />
     <Content Include="imageforstory\ms7.png" />
     <Content Include="Js\Load_data_Home.js" />
+    <Content Include="Js\Load_data_Mouse.js" />
+    <Content Include="Js\Load_Menu_Cheesecake.js" />
     <Content Include="LoginForm.html" />
     <Content Include="LoginSignup.html" />
     <Content Include="Menu.html" />
