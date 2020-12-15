@@ -45,16 +45,21 @@ header {
     /*Class logo*/
     header .logo {
         max-width: 300px;
-        float: left;
+        margin: 0;
         cursor: pointer;
-        flex:1;
-        border: 1px solid #000000;
+        flex: 1;
     }
+
+        header .logo img {
+            padding: 5px 80px;
+            width: 150px;
+        }
     /*Class Navbar*/
     header .navbar {
         align-items: center;
         flex: 1;
         padding-top: 20px;
+        font-size: 18px;
     }
 
         header .navbar ul {
@@ -108,9 +113,9 @@ header {
                         }
     /*Class Icon*/
     header .icon {
-        min-width: 300px;
+        min-width: 500px;
         display: flex;
-        padding-top:10px;
+        padding-top: 10px;
     }
 
         header .icon svg {
@@ -149,3 +154,25 @@ header {
                 background: #9fb7cd;
                 color: #0b3961;
             }
+/*Icon Search*/
+.icon .search {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+    .icon .search svg {
+        float: right;
+        padding-left: 130px;
+    }
+
+    .icon .search .searchbar {
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        background: white;
+        border: 1px solid #0f4c81;
+        display: none;
+    }
+
+    .icon .search:hover .searchbar {
+        display: block;
+    }

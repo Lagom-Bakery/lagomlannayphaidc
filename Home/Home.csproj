@@ -102,6 +102,9 @@
     <None Include="data\cate-8.json" />
     <None Include="data\cate-9.json" />
     <Content Include="Donuts.html" />
+    <Content Include="image-logo\logo-1.png" />
+    <Content Include="image-logo\logo-2.png" />
+    <Content Include="image-logo\logo-3.png" />
     <Content Include="Js\Load_data_BakedCake.js" />
     <Content Include="Js\Load_data_ChiffonAndBundtCake.js" />
     <Content Include="Js\Load_data_Cookies.js" />
@@ -123,6 +126,7 @@
     <Content Include="MeringueAndSemifreddo.html" />
     <Content Include="Mousse.html" />
     <Content Include="MuffinsAndCremeBrulee.html" />
+    <Content Include="OnlyHeader.html" />
     <Content Include="Pavlova.html" />
     <Content Include="RedVelvet.html" />
     <Content Include="TartAndPie.html" />
