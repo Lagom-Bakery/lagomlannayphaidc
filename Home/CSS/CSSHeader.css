@@ -13,19 +13,19 @@
 
 @keyframes slide {
     0% {
-        background-image: url(../backgroundimg/BG-cheesecake.jpg);
+        background-image: url(../backgroundimg/BG-blueberry-cake.jpg);
     }
 
     20% {
-        background-image: url(../backgroundimg/BG-cake.png);
+        background-image: url(../backgroundimg/BG-christmas-cookies-1.jpg);
     }
 
     40% {
-        background-image: url(../backgroundimg/BG-cookies-1.png);
+        background-image: url(../backgroundimg/BG-macaron.png);
     }
 
     60% {
-        background-image: url(../backgroundimg/BG-crepe.png)
+        background-image: url(../backgroundimg/BG-crepe-1.png)
     }
 
     80% {
