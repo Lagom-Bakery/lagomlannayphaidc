@@ -1,0 +1,96 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+.centercart {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cartleft {
+    float: left;
+    width: 800px
+}
+
+.cartright {
+    float: right;
+    width: 440px;
+}
+
+#clear {
+    clear: both;
+}
+
+.itemcart {
+    width: 100%;
+    height: 220px;
+    background-color: #dce7f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.itemimage {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.itemname {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f4c81;
+    float: left;
+    text-align: left;
+    width: 400px;
+}
+
+.itempriceamount {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f4c81;
+    float: right;
+}
+
+    .itempriceamount input {
+        font-size: 25px;
+        font-weight: bold;
+        color: #0f4c81;
+        width: 50px;
+        border: 1px solid #0f4c81;
+        outline: none;
+        font-family: Lora;
+    }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {
+    color: #0f4c81;
+}
+
+.itemtitle {
+    font-weight: bold;
+    color: #0f4c81;
+}
+
+
+.itemoption {
+    width: 25%;
+}
+
+.cartpromotion {
+    background-color: #dce7f8;
+    width: 400px;
+    padding: 20px;
+}

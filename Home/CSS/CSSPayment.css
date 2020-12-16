@@ -1,0 +1,69 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+.centerpayment {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.paymenttitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f4c81;
+    text-align: left;
+}
+
+.paymentleft {
+    float: left;
+    width: 800px
+}
+
+.paymentright {
+    float: right;
+    width: 440px;
+}
+
+#clear {
+    clear: both;
+}
+
+.paymentitem {
+    width: 800px;
+    height: auto;
+    min-height: 100%;
+    background-color: #dce7f8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logopayment {
+    width: 50px;
+    height: 50px;
+}
+
+.deliinfo {
+    border: 1px solid #0f4c81;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.inputdeli input[type=text] {
+    color: #1664a8;
+    width: 200px;
+    border-bottom: 1px solid #0f4c81;
+    outline: none;
+    font-family: Lora;
+}
+
+::-webkit-input-placeholder {
+    color: #0f4c81;
+    opacity: 0.5;
+}

@@ -1,0 +1,37 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+.centercontact {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#clear {
+    clear: both;
+}
+
+.imgfeedback {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    color: #0f4c81;
+}
+
+.hiring {
+    float: left;
+    width: 500px;
+}
+
+.contactus {
+    float: right;
+    width: 700px;
+    margin-left: 50px;
+}

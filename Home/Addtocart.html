@@ -2,196 +2,280 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Cheesecake | Menu | Lagom Bakery</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <script src="https://use.fontawesome.com/0af3ce7956.js"></script>
-    <script src="https://code.jquery.com/jquery-1.7.2.js">
-
-    </script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-
-    <link href="../CSS/CSSMenu.css" rel="stylesheet" />
-    <link href="../CSS/CSSFooter.css" rel="stylesheet" />
+    <title></title>
+    <link href="CSS/CSSForFooter.css" rel="stylesheet" />
+    <link href="CSS/CSSCart.css" rel="stylesheet" />
+    <link href="CSS/CSSFooter.css" rel="stylesheet" />
     <script type="text/javascript">
-
-
-
-    </script>
-    <!--<script>
-        function wishlist() {
-            document.getElementByClassName("far fa-heart").className = "fas fa-heart"
-            document.getElementByClassName("far fa-heart").style.color = "red"
+        function applyCoupon() {
+            var coupon = document.getElementById("couponid").value;
+            if (coupon == "" || coupon == null) {
+                alert('You have to enter coupon!')
+            }
+            else {
+                alert('Apply coupon successfully!')
+            }
         }
-        $('button.iconheart').click(function () {
-            wishlist();
-        });
-    </script>-->
-
-
+        function amount() {
+            var amount = document.getElementById("itemamount").value;
+            document.getElementById("finalamount").innerHTML = amount;
+        }
+    </script>
 </head>
 <body>
-
     <div>
-        <div style=" width:960px; height: auto;
-    min-height: 100%">
+        <div style=" width: 1250px; height: auto; min-height: 100%;" class="centercart">
+            <h2 align="center" style="color:#0f4c81">
+                YOUR CART
+            </h2>
             <div>
-                <div>
-                    <div class="rowmenu">
-                        <!--
-                            <div class="columnmenu">
+                <div class="cartleft">
+                    <form>
+                        <table class="itemcart">
+                            <tr>
+                                <td valign="middle" rowspan="4">
+                                    <div class="itemimage" style="background-image: url(https://images.squarespace-cdn.com/content/v1/55465548e4b0e11ffa8d0b08/1562565162227-M3NYZI3EKM6FRDR7F44X/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/june+workshop+with+thelittleplantattion+and+my+nectarine+vegan+cake+recipe?format=1000w)">
 
-                                <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/09/Apple-Cider-Churros-scaled.jpg)"></div>
-                                <div style="margin-top:5px; height:40px">
-                                    Lemon Poppy Seed Cake Lemon Poppy Seed Cake
-                                </div>
-                                <div style="margin-top:8px;">
-                                    $ 20.00
-                                </div>
-                                <div style="margin-top:5px;height:50px">
-                                    <button style="float:left;background-color:#0f4c81;
-                                            text-align:center;width:80%;color:white;
-                                            border:none;
-                                            cursor: pointer;
-                                            padding:10px;
-                                            font-size:16px;
-                                            font-family:Lora;"
-                                            id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                        Add to cart
-                                    </button>
-                                    <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                        <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                                    </a>
+                                    </div>
+                                </td>
+                                <td valign="top" colspan="4">
+                                    <div class="itemname">
+                                        Nectarine And Vanilla Cake
+                                    </div>
+                                    <div class="itempriceamount">
+                                        <div style="float:left">
+                                            38.00
+                                        </div>
+                                        <div style="float:right; margin-left:5px; ">
+                                            <input placeholder="1" id="itemamount" name="amount" type="number" min="1" step="1" onsubmit="amount()" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="itemoption">
+                                <td class="itemtitle">Size</td>
+                                <td>
+                                    <input type="radio" name="size" value="slice" checked /> Slice
+                                </td>
+                                <td>
+                                    <input type="radio" name="size" value="medium" /> Medium
+                                </td>
+                                <td>
+                                    <input type="radio" name="size" value="grande" /> Grande
+                                </td>
+                            </tr>
+                            <tr class="itemoption">
+                                <td class="itemtitle">Sugar</td>
+                                <td>
+                                    <input type="radio" name="sugar" value="50" checked /> 50%
+                                </td>
+                                <td>
+                                    <input type="radio" name="sugar" value="70" /> 70%
+                                </td>
+                                <td>
+                                    <input type="radio" name="sugar" value="100" /> 100%
+                                </td>
+                            </tr>
+                            <tr class="itemoption">
+                                <td class="itemtitle">Butter</td>
+                                <td>
+                                    <input type="radio" name="butter" value="50" checked /> 50%
+                                </td>
+                                <td>
+                                    <input type="radio" name="butter" value="70" /> 70%
+                                </td>
+                                <td>
+                                    <input type="radio" name="butter" value="100" /> 100%
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <form>
+                        <table class="itemcart">
+                            <tr>
+                                <td valign="middle" rowspan="4">
+                                    <div class="itemimage" style="        background-image: url( https://3.bp.blogspot.com/-Ve1txIVXXfE/V3l7bQ4cywI/AAAAAAAAQpY/fUaIUC_-e_I_l3DhZy8Qi35kwfO_cPKXACLcB/s1600/DSC_0721blog.jpg)">
 
-                                </div>
-                            </div>
-                            <div class="columnmenu">
-                                <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/08/Strawberry-Frosting-11.jpg)"></div>
-                                <div style="margin-top:5px; height:40px">
-                                    Apple Cider Churros
-                                </div>
-                                <div style="margin-top:8px;">
-                                    $ 20.00
-                                </div>
-                                <div style="margin-top:5px;height:50px">
-                                    <button style="float:left;background-color:#0f4c81;
-                                            text-align:center;width:80%;color:white;
-                                            border:none;
-                                            cursor: pointer;
-                                            padding:10px;
-                                            font-size:16px;
-                                            font-family:Lora;"
-                                            id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                        Add to cart
-                                    </button>
-                                    <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                        <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                                    </a>
+                                    </div>
+                                </td>
+                                <td colspan="4" valign="top">
+                                    <div class="itemname">
+                                        Strawberry Vanilla Chiffon
+                                    </div>
+                                    <div class="itempriceamount">
+                                        <div style="float:left">
+                                            31.25
+                                        </div>
+                                        <div style="float:right; margin-left:5px; ">
+                                            <input name="amount" type="number" min="1" step="1" placeholder="1" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="itemoption">
+                                <td class="itemtitle">Size</td>
+                                <td>
+                                    <input type="radio" name="size" value="slice" checked /> Slice
+                                </td>
+                                <td>
+                                    <input type="radio" name="size" value="medium" /> Medium
+                                </td>
+                                <td>
+                                    <input type="radio" name="size" value="grande" /> Grande
+                                </td>
+                            </tr>
+                            <tr class="itemoption">
+                                <td class="itemtitle">Sugar</td>
+                                <td>
+                                    <input type="radio" name="sugar" value="50" checked /> 50%
+                                </td>
+                                <td>
+                                    <input type="radio" name="sugar" value="70" /> 70%
+                                </td>
+                                <td>
+                                    <input type="radio" name="sugar" value="100" /> 100%
+                                </td>
+                            </tr>
+                            <tr class="itemoption">
+                                <td class="itemtitle">Butter</td>
+                                <td>
+                                    <input type="radio" name="butter" value="50" checked /> 50%
+                                </td>
+                                <td>
+                                    <input type="radio" name="butter" value="70" /> 70%
+                                </td>
+                                <td>
+                                    <input type="radio" name="butter" value="100" /> 100%
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="cartright">
+                    <div class="cartpromotion">
+                        <font color="#0f4c81" style="font-weight:bold;font-size:25px;">Promotion</font>
+                        <form>
+                            <input id="couponid" type="text" style="width:200px;font-family:Lora;font-size:25px" />
+                            <button onclick="applyCoupon()" id="applycode" style="cursor:pointer;background-color:#0f4c81;font-size:25px;color:white;font-family:Lora;outline:none;border-radius:5px">Apply coupon</button>
+                        </form>
+                        <br />
+                        <font color="#0f4c81" style="font-weight:bold;font-size:25px;">Total Amount</font>
+                        <table cellpadding="10">
+                            <tr>
+                                <td id="finalamount" style="width:10%" valign="top">
+                                    1
+                                </td>
+                                <td style="width:80%" valign="top">
+                                    Nectarine And Vanilla Cake
+                                </td>
+                                <td style="font-weight:bold;color:#0f4c81;width:20%" valign="top">
+                                    38.00
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="finalamount" style="width:10%" valign="top">
+                                    1
+                                </td>
+                                <td style="width:80%" valign="top">
+                                    Strawberry Vanilla Chiffon
+                                </td>
+                                <td style="font-weight:bold;color:#0f4c81;width:20%" valign="top">
+                                    31.25
+                                </td>
+                            </tr>
+                        </table>
 
-                                </div>
-                            </div>
-                            <div class="columnmenu">
-                                <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/06/Baked-Blueberry-Donuts-9.jpg)"></div>
-                                <div style="margin-top:5px; height:40px">
-                                    Apple Cider Churros
-                                </div>
-                                <div style="margin-top:8px;">
-                                    $ 20.00
-                                </div>
-                                <div style="margin-top:5px;height:50px">
-                                    <button style="float:left;background-color:#0f4c81;
-                                            text-align:center;width:80%;color:white;
-                                            border:none;
-                                            cursor: pointer;
-                                            padding:10px;
-                                            font-size:16px;
-                                            font-family:Lora;"
-                                            id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                        Add to cart
-                                    </button>
-                                    <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                        <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                                    </a>
+                        <table width="100%">
+                            <tr>
+                                <td width="80%">
+                                    <font color="#0f4c81" style="font-weight:bold;font-size:25px;">Discount Amount</font>
 
-                                </div>
-                            </div>
+                                </td>
+                                <td width="12%">
+                                    <font color="#0f4c81" style="font-weight:bold;">0</font>
 
-                        </div>
-
-                        <div class="rowmenu">
-                            <div class="columnmenu">
-                                <div class="thumb" style="background-image: url(https://bromabakery.com/wp-content/uploads/2020/09/Apple-Cider-Churros-scaled.jpg)"></div>
-                                <div style="margin-top:5px; height:40px">
-                                    Lemon Poppy Seed Cake Lemon Poppy Seed Cake
-                                </div>
-                                <div style="margin-top:8px;">
-                                    $ 20.00
-                                </div>
-                                <div style="margin-top:5px;height:50px">
-                                    <button style="float:left;background-color:#0f4c81;
-                                            text-align:center;width:80%;color:white;
-                                            border:none;
-                                            cursor: pointer;
-                                            padding:10px;
-                                            font-size:16px;
-                                            font-family:Lora;"
-                                            id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                        Add to cart
-                                    </button>
-                                    <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                        <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                                    </a>
-
-                                </div>
-                            </div>
-                            <div class="columnmenu">
-                                <div class="thumb" style="        background-image: url(https://bromabakery.com/wp-content/uploads/2020/06/Baked-Blueberry-Donuts-9.jpg)"></div>
-                                <div style="margin-top:5px; height:40px">
-                                    Apple Cider Churros
-                                </div>
-                                <div style="margin-top:8px;">
-                                    $ 20.00
-                                </div>
-                                <div style="margin-top:5px;height:50px">
-                                    <button style="float:left;background-color:#0f4c81;
-                                            text-align:center;width:80%;color:white;
-                                            border:none;
-                                            cursor: pointer;
-                                            padding:10px;
-                                            font-size:16px;
-                                            font-family:Lora;"
-                                            id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
-                                        Add to cart
-                                    </button>
-                                    <a width="20%" style="float:right;font-size:30px; cursor:pointer" class="iconheart" onclick="wishlist()">
-                                        <i class="heart fa fa-heart-o" aria-hidden="true" style="color:red"></i>
-                                    </a>
-
-                                </div>-->
+                                </td>
+                            </tr>
+                        </table>
+                        <hr style="border-color: #0f4c81" />
+                        <table cellpadding="10">
+                            <tr>
+                                <td id="finalamount" style="width:10%" valign="top">
+                                </td>
+                                <td style="width:80%" valign="top">
+                                </td>
+                                <td style="font-weight:bold;color:#0f4c81;width:20%" valign="top">
+                                    69.25
+                                </td>
+                            </tr>
+                            <tr>
+                        </table>
+                        <button onclick="document.location='Payment.html'" style="width:100%;outline:none;padding-bottom:5px;padding-top:5px;background-color:#0f4c81;font-size:25px;color:white;font-family:Lora;outline:none;border-radius:5px;cursor:pointer">
+                            Complete payment
+                        </button>
                     </div>
-
-
+                </div>
+            </div>
+            <div id="clear"></div>
+        </div>
+        <footer>
+            <div class="main_content" style="width:1300px">
+                <div class="left">
+                    <img src="image-logo/logo-2.png" style="width:150px;" />
 
                 </div>
+                <div class="nextleft">
+                    <h2 style="font-weight:bold">ABOUT</h2>
+                    <div class="content">
+                        <a href="#">Our story</a><br />
+                        <a href="#">Our blogs</a><br />
+                        <a href="#">Our menu</a><br />
+                        <a href="#">Our contact</a>
+                    </div>
+                    <div>
 
+                        <img style="width:200px;height:auto;margin-top:10px" src="imageforhome/bocongthuong.png" />
+
+                    </div>
+                </div>
+                <div class="nextright">
+
+                    <h2 style="font-weight:bold">ALWAYS-ON SUPPORT</h2>
+                    <div class="content">
+                        <a href="#">Delivery now</a><br />
+                        <a href="#">Others payment</a>
+
+                    </div>
+                    <div class="address">
+                        <h2 style="font-weight:bold">ADDRESS</h2>
+                        <div class="content">
+                            02, Hai Trieu Street, District 01,<br />
+                            Ho Chi Minh City, Vietnam
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" style="float:left"><h2 class="privacy" style="font-weight:bold">PRIVACY</h2></a>
+                        <a href="#" style="float:right"><h2 class="term" style="font-weight:bold">TERM OF USE</h2></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <h2 style="font-weight:bold">
+                        DELIVERY
+                    </h2>
+                    <div class="content">
+                        <a href="#">Shipping methods</a><br />
+                        <a href="#">Payment</a>
+                        <a href="#">Cash voucher</a>
+                    </div>
+                    <div class="social" color="white">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-linkedin"></span></a>
+                    </div>
+                </div>
             </div>
-            <div class="pagenumber" align="center">
-                <ul>
-                    <li><a class="trang1" style="cursor:pointer">1</a></li>
-                    <li><a class="trang2" style="cursor:pointer">2</a></li>
-                    <li><a class="trang3" style="cursor:pointer">3</a></li>
-                    <li><a class="trang4" style="cursor:pointer">4</a></li>
-                    <li><a class="trang5" style="cursor:pointer">5</a></li>
-                    <li><a class="trang6" style="cursor:pointer">6</a></li>
-
-                </ul>
-            </div>
-        </div>
-
-        <div id="clear"></div>
+        </footer>
     </div>
-
-    <script src="../Js/Load_data_Mouse.js"></script>
-
 </body>
 </html>

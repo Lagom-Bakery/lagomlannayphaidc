@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Account.html" />
     <Content Include="Addtocart.html" />
+    <Content Include="avaaccount\ava.jpg" />
     <Content Include="backgroundimg\BG-beautiful_rustic_plating_dessert.jpg" />
     <Content Include="backgroundimg\BG-blueberry-cake.jpg" />
     <Content Include="backgroundimg\BG-blueberry-cookies-1.jpg" />
@@ -85,9 +87,17 @@
     <Content Include="BakedCake.html" />
     <Content Include="Cheesecake.html" />
     <Content Include="ChiffonAndBundtCake.html" />
+    <Content Include="Confirmation.html" />
+    <Content Include="Contact.html" />
     <Content Include="Cookies.html" />
     <Content Include="CreamPuffs.html" />
     <Content Include="CroissantsAndBread.html" />
+    <Content Include="CSS\CSSAccount.css" />
+    <Content Include="CSS\CSSCart.css" />
+    <Content Include="CSS\CSSConfirm.css" />
+    <Content Include="CSS\CSSContact.css" />
+    <Content Include="CSS\CSSForPrivacy.css" />
+    <Content Include="CSS\CSSPayment.css" />
     <Content Include="CupcakesAndTorte.html" />
     <None Include="data\cate-10.json" />
     <None Include="data\cate-11.json" />
@@ -109,6 +119,9 @@
     <Content Include="image-logo\logo-1.png" />
     <Content Include="image-logo\logo-2.png" />
     <Content Include="image-logo\logo-3.png" />
+    <Content Include="imagepayment\momo.png" />
+    <Content Include="imagepayment\viettel.png" />
+    <Content Include="imagepayment\zalo.png" />
     <Content Include="Js\Load_data_BakedCake.js" />
     <Content Include="Js\Load_data_ChiffonAndBundtCake.js" />
     <Content Include="Js\Load_data_Cookies.js" />
@@ -132,8 +145,11 @@
     <Content Include="MuffinsAndCremeBrulee.html" />
     <Content Include="OnlyHeader.html" />
     <Content Include="Pavlova.html" />
+    <Content Include="Payment.html" />
+    <Content Include="Privacy.html" />
     <Content Include="RedVelvet.html" />
     <Content Include="TartAndPie.html" />
+    <Content Include="Termofuse.html" />
     <Content Include="Tiramisu.html" />
     <Content Include="WafflesPancakesAndCrepes.html" />
     <Content Include="CSS\CSSFooter.css" />
@@ -175,7 +191,6 @@
     <Content Include="Menu.html" />
     <Content Include="OurStory.html" />
     <Content Include="SignupForm.html" />
-    <Content Include="Termofuse.html" />
     <Content Include="TrangMenu_iframe.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -191,9 +206,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CSS\NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

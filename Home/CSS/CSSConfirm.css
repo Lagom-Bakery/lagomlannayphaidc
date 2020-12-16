@@ -1,0 +1,36 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+.centerconfirm {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.confirmleft {
+    float: left;
+    width: 800px
+}
+
+.confirmright {
+    float: right;
+    width: 440px;
+}
+
+#clear {
+    clear: both;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.invoiceconfirm {
+    border: 1px solid #0f4c81;
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px;
+}
