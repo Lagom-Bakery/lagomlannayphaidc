@@ -18,43 +18,76 @@
                 document.getElementById("defaultOpen").click();
 
         }
+        function dislayButton() {
+            var e = document.getElementById("button");
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+
+        }
+        function hideIframe() {
+            var x = document.getElementById("iframe");
+            if (x.style.display == "block")
+                x.style.display = "none";
+            
+           document.getElementById("filter").style.display = "block";
+        }
+        function showIframe() {
+            var x = document.getElementById("filter");
+            if (x.style.display == "block")
+                x.style.display = "none";
+            
+            document.getElementById("iframe").style.display = "block";
+
+        }
+        function closeButtonContent() {
+            x = document.getElementById("button");
+            if (x.style.display == "block")
+                x.style.display = "none"
+            else
+                x.style.display="block"
+        }
+        function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
     </script>
 
 
 </head>
-<body onload="startTab()">
+<body onload="startTab()" onclick="topFunction()">
     <div>
         <!--Start Header-->
         <!--Add OnlyHeader.html here-->
-
         <!--End Header-->
-        
+
         <div style=" width: 1250px; height: auto;
     min-height: 100%" class="centermenu">
             <div class="menuleft">
                 <h2>
                     MENU
                 </h2>
- 
+
                 <ul class="categorymenu">
-                    <li><a id="defaultOpen" href="Mousse.html" target="menu">Mousse</a></li>
-                    <li><a href="Cheesecake.html" target="menu">Cheesecake</a></li>
-                    <li><a href="RedVelvet.html" target="menu">Red Velvet</a></li>
-                    <li><a href="BakedCake.html" target="menu">Baked Cake</a></li>
-                    <li><a href="ChiffonAndBundtCake.html" target="menu">Chiffon And Bundt Cake</a></li>
-                    <li><a href="Pavlova.html" target="menu">Pavlova</a></li>
-                    <li><a href="MeringueAndSemifreddo.html" target="menu">Meringue And Semifreddo</a></li>
-                    <li><a href="Tiramisu.html" target="menu">Tiramisu</a></li>
-                    <li><a href="Madeleines.html" target="menu">Madeleines</a></li>
-                    <li><a href="MuffinsAndCremeBrulee.html" target="menu">Muffins And Crème Brûlée</a></li>
-                    <li><a href="CreamPuffs.html" target="menu">Cream Puffs</a></li>
-                    <li><a href="Macarons.html" target="menu">Macarons</a></li>
-                    <li><a href="TartAndPie.html" target="menu">Tart And Pie</a></li>
-                    <li><a href="CupcakesAndTorte.html" target="menu">Cupcakes And Torte</a></li>
-                    <li><a href="Donuts.html" target="menu">Donuts</a></li>
-                    <li><a href="WafflesPancakesAndCrepes.html" target="menu">Waffles, Pancakes And Crepes</a></li>
-                    <li><a href="CroissantsAndBread.html" target="menu">Croissants And Bread</a></li>
-                    <li><a href="Cookies.html" target="menu">Cookies</a></li>
+                    <li><a id="defaultOpen" href="Mousse.html" target="menu" onclick="showIframe()">Mousse</a></li>
+                    <li><a href="Cheesecake.html" target="menu" onclick="showIframe()">Cheesecake</a></li>
+                    <li><a href="RedVelvet.html" target="menu" onclick="showIframe()">Red Velvet</a></li>
+                    <li><a href="BakedCake.html" target="menu" onclick="showIframe()">Baked Cake</a></li>
+                    <li><a href="ChiffonAndBundtCake.html" target="menu" onclick="showIframe()">Chiffon And Bundt Cake</a></li>
+                    <li><a href="Pavlova.html" target="menu" onclick="showIframe()">Pavlova</a></li>
+                    <li><a href="MeringueAndSemifreddo.html" target="menu" onclick="showIframe()">Meringue And Semifreddo</a></li>
+                    <li><a href="Tiramisu.html" target="menu" onclick="showIframe()">Tiramisu</a></li>
+                    <li><a href="Madeleines.html" target="menu" onclick="showIframe()">Madeleines</a></li>
+                    <li><a href="MuffinsAndCremeBrulee.html" target="menu" onclick="showIframe()">Muffins And Crème Brûlée</a></li>
+                    <li><a href="CreamPuffs.html" target="menu" onclick="showIframe()">Cream Puffs</a></li>
+                    <li><a href="Macarons.html" target="menu" onclick="showIframe()">Macarons</a></li>
+                    <li><a href="TartAndPie.html" target="menu" onclick="showIframe()">Tart And Pie</a></li>
+                    <li><a href="CupcakesAndTorte.html" target="menu" onclick="showIframe()">Cupcakes And Torte</a></li>
+                    <li><a href="Donuts.html" target="menu" onclick="showIframe()">Donuts</a></li>
+                    <li><a href="WafflesPancakesAndCrepes.html" target="menu" onclick="showIframe()">Waffles, Pancakes And Crepes</a></li>
+                    <li><a href="CroissantsAndBread.html" target="menu" onclick="showIframe()">Croissants And Bread</a></li>
+                    <li><a href="Cookies.html" target="menu" onclick="showIframe()">Cookies</a></li>
                 </ul>
                 <div style="border:1px solid #0f4c81;width:200px;height:40px;margin-left:20px;border-radius:10px; margin-bottom:30px;">
                     <img style="float:right;margin-top:6px; cursor:pointer;padding-right:5px" src="https://img.icons8.com/ios/25/000000/search.png" />
@@ -62,14 +95,26 @@
 
                 </div>
             </div>
-            <div class="menuright">
-                <div align="right" style="margin-bottom:10px;cursor:pointer">
+            <div class="menuright" style="background-color:aqua;">
+                <div align="right" style="cursor:pointer" onclick="dislayButton()">
                     <img src="https://img.icons8.com/ios/20/000000/filter.png" />
                     Filter
                 </div>
+                <div id="button" onclick="closeButtonContent()" style="text-align:left; display:none;position:fixed;right:20px;top:70px">
+                    <a class="latestCake" style="cursor:pointer" onclick="hideIframe()">Latest Cake</a><br />
+                    <a class="bestSeller_trangMenu" style="cursor:pointer" onclick="hideIframe()">Best seller</a>
+                </div>
                 <div id="content">
                 </div>
-                <iframe class="menuright" src="Cheesecake.html" name="menu" style="border:none;width:980px;height:1400px;margin-left:0px;margin-top:0px;" scrolling="no"></iframe>
+                <!--Filter-->
+                <div id="filter" style="margin-top:50px;">                    
+                            <div class="rowmenu">
+
+                            </div>
+
+                </div>
+                <!---->
+                <iframe class="menuright" id="iframe" name="menu" style="border:none;width:980px;height:1400px;background-color:moccasin" scrolling="no";></iframe>
 
             </div>
             <div id="clear"></div>
@@ -77,7 +122,7 @@
         <footer style="height:313px">
             <div class="main_content" style="width:1300px;height:313px">
                 <div class="left">
-                    <img src="image-logo/logo-2.png" style="width:150px;"/>
+                    <img src="image-logo/logo-2.png" style="width:150px;" />
 
                 </div>
                 <div class="nextleft">
@@ -88,6 +133,7 @@
                         <a href="#">Our menu</a><br />
                         <a href="#">Our contact</a>
                     </div>
+                    
                     <div>
 
                         <img style="width:200px;height:auto;margin-top:10px" src="imageforhome/bocongthuong.png" />
@@ -133,8 +179,7 @@
             </div>
         </footer>
     </div>
-
-    <script src="Js/Load_data_menu.js"></script>
+    <script src="Js/Load_data_Menu_Latest&Bestseller.js"></script>
 
 </body>
 </html>

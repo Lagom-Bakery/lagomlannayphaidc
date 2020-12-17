@@ -115,6 +115,7 @@
     <None Include="data\cate-7.json" />
     <None Include="data\cate-8.json" />
     <None Include="data\cate-9.json" />
+    <None Include="data\filter.json" />
     <Content Include="Donuts.html" />
     <Content Include="image-logo\logo-1.png" />
     <Content Include="image-logo\logo-2.png" />
@@ -132,6 +133,7 @@
     <Content Include="Js\Load_data_Donuts.js" />
     <Content Include="Js\Load_data_Macarons.js" />
     <Content Include="Js\Load_data_Madeleines.js" />
+    <Content Include="Js\Load_data_Menu_Latest&amp;Bestseller.js" />
     <Content Include="Js\Load_data_MeringueAndSemifreddo.js" />
     <Content Include="Js\Load_data_MuffinsAndCremeBrulee.js" />
     <Content Include="Js\Load_data_Pavlova.js" />
