@@ -27,7 +27,7 @@ const displayProducts = (products, place) => {
                                         padding:10px;
                                         font-size:16px;
                                         font-family:Lora;"
-                                        id="addtocart" class="addtocart" name="addtocart" onclick="document.location='Addtocart.html'">
+                                        id="addtocart" class="addtocart" name="addtocart" onclick=" window.open('Addtocart.html','_parent')">
                                     Add to cart
                                 </button>
                                 <img class="iconheart" src="https://img.icons8.com/ios/35/0f4c81/like--v2.png" />
