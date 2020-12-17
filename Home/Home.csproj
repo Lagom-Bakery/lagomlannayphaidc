@@ -119,6 +119,7 @@
     <Content Include="image-logo\logo-1.png" />
     <Content Include="image-logo\logo-2.png" />
     <Content Include="image-logo\logo-3.png" />
+    <Content Include="image-logo\logo-title.png" />
     <Content Include="imagepayment\momo.png" />
     <Content Include="imagepayment\viettel.png" />
     <Content Include="imagepayment\zalo.png" />
