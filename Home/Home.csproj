@@ -85,6 +85,7 @@
     <Content Include="backgroundimg\icons\shopping-cart.png" />
     <Content Include="backgroundimg\icons\user.png" />
     <Content Include="BakedCake.html" />
+    <Content Include="Blog.html" />
     <Content Include="Cheesecake.html" />
     <Content Include="ChiffonAndBundtCake.html" />
     <Content Include="Confirmation.html" />
@@ -93,6 +94,7 @@
     <Content Include="CreamPuffs.html" />
     <Content Include="CroissantsAndBread.html" />
     <Content Include="CSS\CSSAccount.css" />
+    <Content Include="CSS\CSSBlog.css" />
     <Content Include="CSS\CSSCart.css" />
     <Content Include="CSS\CSSConfirm.css" />
     <Content Include="CSS\CSSContact.css" />
@@ -121,6 +123,11 @@
     <Content Include="image-logo\logo-2.png" />
     <Content Include="image-logo\logo-3.png" />
     <Content Include="image-logo\logo-title.png" />
+    <Content Include="imageblog\blog1.jpg" />
+    <Content Include="imageblog\blog2.jpg" />
+    <Content Include="imageblog\blog3.jpg" />
+    <Content Include="imageblog\blog4.jpg" />
+    <Content Include="imageblog\blog5.jpg" />
     <Content Include="imagepayment\momo.png" />
     <Content Include="imagepayment\viettel.png" />
     <Content Include="imagepayment\zalo.png" />

@@ -1,0 +1,30 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+.centerblog {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#clear {
+    clear: both;
+}
+
+.blogcover {
+    height: 308.75px;
+    width: 494px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.childblogcontent {
+    margin-top: 10px;
+    text-align: justify
+}

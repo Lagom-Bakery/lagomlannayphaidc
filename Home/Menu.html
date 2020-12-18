@@ -95,26 +95,33 @@
 
                 </div>
             </div>
-            <div class="menuright" style="background-color:aqua;">
+            <div class="menuright" style="">
                 <div align="right" style="cursor:pointer" onclick="dislayButton()">
                     <img src="https://img.icons8.com/ios/20/000000/filter.png" />
                     Filter
                 </div>
-                <div id="button" onclick="closeButtonContent()" style="text-align:left; display:none;position:fixed;right:20px;top:70px">
-                    <a class="latestCake" style="cursor:pointer" onclick="hideIframe()">Latest Cake</a><br />
-                    <a class="bestSeller_trangMenu" style="cursor:pointer" onclick="hideIframe()">Best seller</a>
+                <div id="button" onclick="closeButtonContent()" style="text-align:left; display:none;position:sticky;right:0px;left:1200px;width:100px">
+                    <div width="88px" class="buttonfilter">
+                        <a class="latestCake" style="cursor:pointer;" onclick="hideIframe()">Latest Cake</a><br />
+                    </div>
+                    <div width="88px" class="buttonfilter">
+                        <a class="bestSeller_trangMenu" style="cursor:pointer;" onclick="hideIframe()">Best seller</a>
+
+                    </div>
                 </div>
                 <div id="content">
                 </div>
                 <!--Filter-->
-                <div id="filter" style="margin-top:50px;">                    
-                            <div class="rowmenu">
+                <div style="position:relative;top:10px">
+                    <div id="filter" style="">
+                        <div class="rowmenu">
 
-                            </div>
+                        </div>
 
+                    </div>
                 </div>
                 <!---->
-                <iframe class="menuright" id="iframe" name="menu" style="border:none;width:980px;height:1400px;background-color:moccasin" scrolling="no";></iframe>
+                <iframe class="menuright" id="iframe" name="menu" style="border:none;width:980px;height:1400px;margin-top:10px" scrolling="no";></iframe>
 
             </div>
             <div id="clear"></div>
@@ -128,10 +135,10 @@
                 <div class="nextleft">
                     <h2 style="font-weight:bold">ABOUT</h2>
                     <div class="content">
-                        <a href="#">Our story</a><br />
-                        <a href="#">Our blogs</a><br />
-                        <a href="#">Our menu</a><br />
-                        <a href="#">Our contact</a>
+                        <a href="OurStory.html">Our story</a><br />
+                        <a href="Blog.html">Our blogs</a><br />
+                        <a href="Menu.html">Our menu</a><br />
+                        <a href="Contact.html">Our contact</a>
                     </div>
                     
                     <div>
