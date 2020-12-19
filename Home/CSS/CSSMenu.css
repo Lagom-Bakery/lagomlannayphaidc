@@ -130,3 +130,16 @@ html {
     padding-top: 1px;
     padding-bottom: 2px
 }
+.buttonfilter {
+    background-color: #0f4c81;
+    color: white; 
+    padding:5px;
+    position:relative;
+}
+.buttonfilter a:hover {
+    text-decoration:underline;
+    text-decoration-color:white;
+}
+.filter{
+    margin-top:10px;
+}
