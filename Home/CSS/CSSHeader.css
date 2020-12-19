@@ -33,6 +33,7 @@
     }
 }
 
+
 header {
     max-height: 100px;
     height: 100vh;
@@ -44,37 +45,40 @@ header {
 
     /*Class logo*/
     header .logo {
-        max-width: 300px;
+        max-width: 200px;
         margin: 0;
         cursor: pointer;
         flex: 1;
     }
 
         header .logo img {
-            padding: 5px 80px;
-            width: 150px;
+            padding: 5px 30px;
+            width: 120px;
         }
     /*Class Navbar*/
     header .navbar {
         align-items: center;
+        min-width: 800px;
         flex: 1;
-        padding-top: 20px;
+        padding-top: 10px;
         font-size: 18px;
     }
 
         header .navbar ul {
             text-align: center;
+            padding-left: 0px;
         }
 
             header .navbar ul li {
                 display: inline-block;
                 list-style: none;
+                padding: 0p;
             }
 
                 header .navbar ul li a {
                     text-decoration: none;
                     color: white;
-                    padding: 10px 20px;
+                    padding: 0px 20px;
                 }
 
                     header .navbar ul li a:hover {
@@ -113,9 +117,9 @@ header {
                         }
     /*Class Icon*/
     header .icon {
-        min-width: 500px;
+        min-width: 2-00px;
+        flex: 1;
         display: flex;
-        padding-top: 10px;
     }
 
         header .icon svg {
@@ -142,6 +146,7 @@ header {
                 header .icon .user li a {
                     text-decoration: none;
                     color: white;
+                    background: #0f4c81;
                     border: 1px solid #0f4c81;
                     padding: 5px;
                 }
@@ -157,21 +162,29 @@ header {
 /*Icon Search*/
 .icon .search {
     display: grid;
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 
     .icon .search svg {
         float: right;
-        padding-left: 130px;
+        padding-left: 80px;
     }
 
     .icon .search .searchbar {
         display: grid;
         grid-template-columns: 5fr 1fr;
-        background: white;
+        width: 130px;
         border: 1px solid #0f4c81;
+        background: white;
         display: none;
     }
+
+        .icon .search .searchbar input {
+            border: 0px;
+            width: 100px;
+            height: 16px;
+            margin-top: 0px;
+        }
 
     .icon .search:hover .searchbar {
         display: block;
