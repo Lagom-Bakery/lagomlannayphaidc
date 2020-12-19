@@ -126,8 +126,10 @@
     <Content Include="imageblog\blog1.jpg" />
     <Content Include="imageblog\blog2.jpg" />
     <Content Include="imageblog\blog3.jpg" />
+    <Content Include="imageblog\blog31.jpg" />
     <Content Include="imageblog\blog4.jpg" />
     <Content Include="imageblog\blog5.jpg" />
+    <Content Include="imageblog\blog51.jpg" />
     <Content Include="imagepayment\momo.png" />
     <Content Include="imagepayment\viettel.png" />
     <Content Include="imagepayment\zalo.png" />
