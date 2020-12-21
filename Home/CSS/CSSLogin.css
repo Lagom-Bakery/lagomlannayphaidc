@@ -17,6 +17,7 @@ body {
     width: 1330px;
     height: 600px;
     margin: 0 auto;
+    overflow-x:visible;
 }
 
 .rightlogin {
