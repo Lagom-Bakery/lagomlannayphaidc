@@ -133,6 +133,7 @@
     <Content Include="imagefeedback\F1.jpg" />
     <Content Include="imagefeedback\F2.jpg" />
     <Content Include="imagefeedback\F3.jpg" />
+    <Content Include="imagefeedback\F4.jpg" />
     <Content Include="imagepayment\momo.png" />
     <Content Include="imagepayment\viettel.png" />
     <Content Include="imagepayment\zalo.png" />
